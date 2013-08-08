@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <wiringPi.h>
+
+#define BTN 0
+#define TRIG 1
+#define ECHO 2
+
+int main (void)
+{
+	printf("Starting demo/n");
+	
+	if (wiringPiSetup () == -1)
+		return 1;
+	
+	pinMode(BTN, INPUT);
+	pinMode(TRIG, OUTPUT);
+	pinMode(ECHO, INPUT);
+	
+	wiringPiISR(BTN, INT_EDGE_RISING, &ISR_btnHandler);
+	wiringPiISR(ECHO, INT_EDGE_RISING, &ISR_echoHandler);
+	
+	while(1);
+}
+
+void ISR_btnHandler(void)
+{
+	
+}
+
+void ISR_echoHandler(void)
+{
+	
+}
+
