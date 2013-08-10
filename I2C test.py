@@ -1,19 +1,39 @@
 #!/usr/bin/python
 import smbus
+import time
 
 bus = smbus.SMBus(1)
-slaveAddr = 0x10
+addr = 0x10
 
 def getDistance():
-	return bus.read_word_data(slaveAddr, 0x30)
+	#bus.write_byte(addr, 0x30)
+	#time.sleep(0.2)
+	#ret = 0x0000
+	#ret = bus.read_byte(addr)
+	#ret = ret<<8
+	#ret|= bus.read_byte(addr)
+	bus.write_byte(addr, 0x10)
+	time.sleep(0.2)
+	ret = (bus.read_byte_data(addr, 0x30)&0x0F)<<12
+	ret |= (bus.read_byte_data(addr, 0x40)&0x0F)<<8
+	ret |= (bus.read_byte_data(addr, 0x50)&0x0F)<<4
+	ret |= (bus.read_byte_data(addr, 0x60)&0x0F)
+	#ret = read_i2c_block_data(addr, 0x30)
+	return ret
 
 def sendStop():
-	return bus.read_word_data(slaveAddr, 0x20)
+	bus.write_byte(addr, 0x20)
+	#time.sleep(0.2)
+	ret = 0x0000
+	ret = bus.read_byte(addr)
+	ret = ret<<8
+	ret|= bus.read_byte(addr)
+	print "stop sent"
+	return ret
 
 def main():
 	print "START..."
-	print "dist: " + str(getDistance())
-	#print sendStop()
-	print "stop sent"
+	print "dist: " + hex(getDistance())
+	#print hex(sendStop())
 
 main()
