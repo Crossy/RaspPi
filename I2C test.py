@@ -19,6 +19,14 @@ def getDistance():
 	ret |= (bus.read_byte_data(addr, 0x50)&0x0F)<<4
 	ret |= (bus.read_byte_data(addr, 0x60)&0x0F)
 	#ret = read_i2c_block_data(addr, 0x30)
+
+	if ret > 65000:
+		#print hex(ret)
+		ret-=0x10000
+		if ret == -1:
+			return "No response"
+		elif ret == -2:
+			return "No echo received"
 	return ret
 
 def sendStop():
@@ -33,7 +41,7 @@ def sendStop():
 
 def main():
 	print "START..."
-	print "dist: " + hex(getDistance())
+	print "dist: " + str(getDistance())
 	#print hex(sendStop())
 
 main()
