@@ -3,7 +3,7 @@ import sys
 import time
 from serial.tools import list_ports
 
-class MyClass:
+class SMS:
 	#debug
 	debug = True
 
@@ -101,7 +101,7 @@ class MyClass:
 		self.sendCommand(self.send_sms+'"'+number+'"\r')
 		dummy = self.port.read(3)     #\n\r\n>
 		self.port.write(msg)
-		self.port.write(cself.trl_z)
+		self.port.write(self.ctrl_z)
 		#Read the \r\n
 		dummy = self.serialReadline(eol='\n')      #> \r
 		dummy = self.serialReadline(eol='\n')      #\r
@@ -131,14 +131,17 @@ class MyClass:
 
 #params for message
 port = "/dev/ttyUSB2"
-number = "0488598262"
-msg = "This is sent from my Raspberry Pi."
+#number = "0488598262"
+#number = "0438029742"
+number = "0497659587"
+#msg = "This is sent from my Raspberry Pi."
+#msg = "Thank you!!! xoxoxox"
 #msg = "Look I got it working"
-#msg = "ALERT: TANK 1 was 20% full at 12:00PM on 13/05/2013"
+msg = "ALERT: TANK 1 was 20% full at 12:00PM on 13/05/2013"
 
 def main():
-    sms = MyClass(port, 5)
-    sms.printPorts()
+    sms = SMS(port, 5)
+    #sms.printPorts()
     #Check if dongle is ready to communicate
     sms.sendCommand("")
     #Read the \r\n
