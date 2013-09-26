@@ -6,12 +6,12 @@ import datetime
 import requests
 import random
 
-FEED_ID = "468241028"
-API_KEY = "K75wWfFgpuGvvxJLHFCcCzaV3UBm4bR6MmzhyIaJJgRjKAkg"
-DEBUG = True
+class XivelyHelper:     #Change name probably
+    FEED_ID = "468241028"
+    API_KEY = "K75wWfFgpuGvvxJLHFCcCzaV3UBm4bR6MmzhyIaJJgRjKAkg"
+    DEBUG = True
 
-class xivelyHelper:     #Change name probably
-    def __init__(self,feed_id,api_key,debug=False):
+    def __init__(self,feed_id=FEED_ID,api_key=API_KEY,debug=DEBUG):
         self.feed_id = feed_id
         self.debug = debug
         # initialize api client

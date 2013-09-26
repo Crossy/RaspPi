@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import smbus
 import time
+import os
 
 bus = smbus.SMBus(1)
 addr = 0x10
@@ -32,16 +33,17 @@ def getDistance():
 def sendStop():
 	bus.write_byte(addr, 0x20)
 	#time.sleep(0.2)
-	ret = 0x0000
-	ret = bus.read_byte(addr)
-	ret = ret<<8
-	ret|= bus.read_byte(addr)
+	#ret = 0x0000
+	#ret = bus.read_byte(addr)
+	#ret = ret<<8
+	#ret|= bus.read_byte(addr)
 	print "stop sent"
-	return ret
+	#return ret
 
 def main():
 	print "START..."
 	print "dist: " + str(getDistance())
-	#print hex(sendStop())
+	sendStop()
+	os.system("sudo halt")
 
 main()

@@ -19,7 +19,7 @@ class Config:
     def __init__(self):
         pass
 
-    def readConfigFile(self,filename='Config.ini'):
+    def read_config_file(self,filename='Config.ini'):
         config = ConfigParser.SafeConfigParser(allow_no_value=True)
         try:
             with open(filename,'r') as fp:
@@ -30,7 +30,7 @@ class Config:
 
         try:
             config.get('fd','fd')
-            
+
             self.name = config.get('Tank','name')
             self.tank_height = config.get('Tank', 'height')
             self.low_water_level = config.get('Tank','lowWaterLevel')
@@ -44,7 +44,7 @@ class Config:
                 if isinstance(no,tuple) and no[1] == 'master':
                     self.master = no[0]
                     break
-                
+
         except ConfigParser.Error as detail:
             sys.stderr.write(str(detail)+'\n')
             pass
