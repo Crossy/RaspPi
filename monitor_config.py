@@ -19,7 +19,7 @@ class Config:
     def __init__(self):
         pass
 
-    def read_config_file(self,filename='Config.ini'):
+    def read_config_file(self,filename='config.ini'):
         config = ConfigParser.SafeConfigParser(allow_no_value=True)
         try:
             with open(filename,'r') as fp:
@@ -29,15 +29,14 @@ class Config:
             return False
 
         try:
-            config.get('fd','fd')
-
             self.name = config.get('Tank','name')
-            self.tank_height = config.get('Tank', 'height')
-            self.low_water_level = config.get('Tank','lowWaterLevel')
+            self.tank_height = int(config.get('Tank', 'height'))
+            self.low_water_level = int(config.get('Tank','lowWaterLevel'))
 
+            #TODO: Convert these to times
             self.quiet_time_start = config.get('Options', 'quietTimeStart')
             self.quiet_time_end = config.get('Options', 'quietTimeEnd')
-            self.sample_period = config.get('Options', 'samplePeriod')
+            self.sample_period = int(config.get('Options', 'samplePeriod'))
 
             self.white_list = config.options('WhiteList')
             for no in self.white_list:

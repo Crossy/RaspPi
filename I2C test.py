@@ -43,7 +43,7 @@ def sendStop():
 def main():
 	print "START..."
 	print "dist: " + str(getDistance())
-	sendStop()
-	os.system("sudo halt")
+	#sendStop()
+	#os.system("sudo halt")
 
 main()

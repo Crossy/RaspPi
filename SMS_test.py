@@ -130,7 +130,7 @@ class SMS:
         return
 
 #params for message
-"""port = "/dev/ttyUSB1"
+port = "/dev/ttyUSB1"
 number = "0488598262"
 #number = "0438029742"
 #number = "0497659587"
@@ -155,4 +155,4 @@ def main():
     sms.sendMessage(number, msg)
     return
 
-main()"""
+main()

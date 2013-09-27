@@ -11,8 +11,8 @@ class DropboxHelper:
     APP_SECRET = '4cggsz8ek8tv7bq'
     ACCESS_TYPE = 'app_folder'  # should be 'dropbox' or 'app_folder' as configured for your app
 
-    def __init__(self, app_key=APP_KEY, app_secret=APP_SECRET):
-        self.sess = StoredSession(app_key, app_secret, access_type=ACCESS_TYPE)
+    def __init__(self, app_key='vn6w5iuzrsolpix', app_secret='4cggsz8ek8tv7bq'):
+        self.sess = StoredSession(app_key, app_secret, access_type='app_folder')
         self.api_client = client.DropboxClient(self.sess)
         self.current_path = ''
         self.sess.load_creds()
@@ -133,7 +133,7 @@ class StoredSession(session.DropboxSession):
         self.delete_creds()
         session.DropboxSession.unlink(self)
 
-def main():
+"""def main():
     if APP_KEY == '' or APP_SECRET == '':
         exit("You need to set your APP_KEY and APP_SECRET!")
     dbHelper = DropboxHelper(APP_KEY, APP_SECRET)
@@ -143,3 +143,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+"""

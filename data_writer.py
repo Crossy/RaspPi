@@ -10,21 +10,22 @@ class DataWriter:
 
     def write_datapoint(self, datapoint):
         now = dt.datetime.now()
-        with open(now.strftime("%Y-%m")+'.csv','ab') as f:
+        filename = now.strftime("%Y-%m")+'.csv'
+        with open(filename,'ab') as f:
             writer = csv.writer(f,'excel')
             dateTime = now.strftime("%Y-%m-%d %H:%M")
             writer.writerow([dateTime,datapoint])
             f.close()
-            if DEBUG:
+            if self.DEBUG:
                 print "Wrote "+ dateTime + ", " + str(datapoint)
-            return
+            return filename
 
     def get_previous_datapoints(self, n):
-        if int(
         now = dt.datetime.now()
         datapoints = []
+        filename = now.strftime("%Y-%m")+'.csv'
         try:
-            with open(now.strftime("%Y-%m")+'.csv','rb') as fp:
+            with open(filename,'rb') as fp:
                 lines = fp.readlines()
                 needPrevMonth = False
                 start = len(lines) - n
@@ -47,9 +48,9 @@ class DataWriter:
             sys.stderr.write(str(details)+'\n')
         return datapoints
 
-def main():
+"""def main():
     while True:
         print write_test()
-        time.sleep(3)
+        time.sleep(3)"""
 
 #main()

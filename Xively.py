@@ -11,7 +11,7 @@ class XivelyHelper:     #Change name probably
     API_KEY = "K75wWfFgpuGvvxJLHFCcCzaV3UBm4bR6MmzhyIaJJgRjKAkg"
     DEBUG = True
 
-    def __init__(self,feed_id=FEED_ID,api_key=API_KEY,debug=DEBUG):
+    def __init__(self,feed_id="468241028",api_key="K75wWfFgpuGvvxJLHFCcCzaV3UBm4bR6MmzhyIaJJgRjKAkg",debug=True):
         self.feed_id = feed_id
         self.debug = debug
         # initialize api client
@@ -41,7 +41,7 @@ class XivelyHelper:     #Change name probably
         return True
 
     def put_datapoint(self,datapoint):
-        self.datastream.current_value = datapoint
+        self.datastream.current_value = "{0:.2f}".format(datapoint)
         self.datastream.at = datetime.datetime.utcnow()
         try:
           self.datastream.update()
