@@ -6,12 +6,14 @@ import sys
 
 class Config:
     name = ''
-    tank_height = 0     #Centimetres
+    maxwaterheight = 1      #Centimetres
+    sensorheightabovewater = 1        #Centimetres
     low_water_level = 25    #Percent
 
     quiet_time_start = datetime.time(hour=22,minute=0)
     quiet_time_end = datetime.time(hour=6, minute=0)
     sample_period = 60   #Minutes
+    max_alarms_per_day = 5
 
     master = '0488598262'
     white_list = []
@@ -30,13 +32,17 @@ class Config:
 
         try:
             self.name = config.get('Tank','name')
-            self.tank_height = int(config.get('Tank', 'height'))
+            self.maxwaterheight = int(config.get('Tank', 'maxWaterHeight'))
+            self.sensorheightabovewater = int(config.get('Tank', 'sensorHeight'))-self.maxwaterheight
             self.low_water_level = int(config.get('Tank','lowWaterLevel'))
 
             #TODO: Convert these to times
-            self.quiet_time_start = config.get('Options', 'quietTimeStart')
-            self.quiet_time_end = config.get('Options', 'quietTimeEnd')
+            temp = config.get('Options', 'quietTimeStart')
+            self.quiet_time_start = datetime.time(hour=int(temp[0:2]), minute=int(temp[2:4]))
+            temp = config.get('Options', 'quietTimeEnd')
+            self.quiet_time_end = datetime.time(hour=int(temp[0:2]), minute=int(temp[2:4]))
             self.sample_period = int(config.get('Options', 'samplePeriod'))
+            self.max_alarms_per_day = int(config.get('Options', 'maxAlarmsPerDay'))
 
             self.white_list = config.options('WhiteList')
             for no in self.white_list:
@@ -45,6 +51,9 @@ class Config:
                     break
 
         except ConfigParser.Error as detail:
+            sys.stderr.write(str(detail)+'\n')
+            pass
+        except ValueError as detail:
             sys.stderr.write(str(detail)+'\n')
             pass
         return True

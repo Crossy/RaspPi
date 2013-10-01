@@ -14,22 +14,31 @@ import datetime
 DEBUG = True
 
 def main():
+    flags = []
+    dbHelper = Dropbox.DropboxHelper()
+    dw = data_writer.DataWriter()
+    sms = SMS.SMS()
+
+    print "------------------------------------------------------------------------"
+    sys.stderr.write("------------------------------------------------------------------------\n")
+
     #Start the internet connection
     if DEBUG:
         print "Starting Internet connection"
     call(["sudo","./internet.sh"])
-    
+
     #Sychronise time
+    #TODO: Fix this
     if DEBUG:
         print "Attempting to update time"
-    call(["sudo","ntpd", "-g"])
-    if call(["ntp-wait"]) != 0:
-        sys.stderr.write("Cannot sychronise time\n")
-        
+    #call(["sudo","service", "ntp", "restart"])
+    call(["sudo", "ntpd", "-g"])
+    if call(["ntp-wait", "-v"]) != 0:
+       sys.stderr.write("Cannot sychronise time\n")
+
     #Update config file
     if DEBUG:
         print "Updating Dropbox"
-    dbHelper = Dropbox.DropboxHelper()
     dbHelper.get_file('config.ini','config.ini')
 
     #TODO: Add configuration stuff here
@@ -39,36 +48,72 @@ def main():
     config.read_config_file()
 
     #Maybe add the ability to send log files via dropbox
+    if DEBUG:
+        print "Sending log files for previous runs to Dropbox"
+    dbHelper.put_file('info.log', 'info.log', True)
+    dbHelper.put_file('error.log', 'error_log', True)
 
+    prevData = dw.get_previous_datapoints(5)    #TODO: Add max
     if DEBUG:
         print "Getting and validating datapoint"
-    validData = False
-    dw = data_writer.DataWriter()
+    retries = 0
     for i in range(10):
         #Get sensor readings
         us = I2C_link.I2CConnection()
         datapoint = us.get_distance()
-        if datapoint < 0:
-            time.sleep(30)      #Try again later
+        now = datetime.datetime.now()
+        if datapoint < 0 and retries < 9:
+            retries = retries + 1
+            time.sleep(5)      #TODO: Change this back to 20 for field operation #Try again later
             continue
-        #datapoint = 100     #TODO: Fix this when sensor is connected
-        datapoint = 100 - (float(datapoint)/config.tank_height * 100) #Convert to perentage
+        elif datapoint  == -1:
+            #No response
+            sys.stderr.write("Problem with ultrasonic sensor\n")
+            msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
+            sms.sendMessage(config.master,msg)
+            exit(1)
+        elif datapoint == -2:
+            #No echo recieved
+            print "Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked"
+            #Check for previous extrapolated data
+            extraps = 0
+            for dp in range(len(prevData), -1, 0):
+                if len(dp) > 2 and 'extrapolated' in dp:
+                    extraps = extraps + 1
+                else:
+                    extraps = 0
+                if extraps > 2:
+                    #TODO: Error. Do I exit here or just write -1 as the data? Probably exit. Sending useless data is not very helpful
+                    break
+            #If ok to, set datapoint to be previous datapoint
+            datapoint = prevData[-1]
+            flags.append('extrapolated')
 
-        #Validate sensor reading
-        prevData = dw.get_previous_datapoints(10)
-        #TODO: Add validation logic
-        validData = True
-        break; 
+        if datapoint >= 0:
+            datapoint = 100 - ((float(datapoint)-config.sensorheightabovewater)/config.maxwaterheight * 100) #Convert to perentage
+
+        break;
+
+    #Check if any alerts need to be sent
+    prevData = dw.get_previous_datapoints(24)
+    oneDay = datetime.timedelta(days=1)
+    prevAlarms = 0
+    for dp in prevData:
+        if dp[0].time() > now.time()-oneDay and len(dp) > 2 and 'alarm' in dp:  #TODO: fix this
+            prevAlarm = prevAlarms + 1
+    if datapoint < config.low_water_level:
+        if DEBUG:
+            print "Low water alarm"
+        if now().time() < config.quiet_time_start.time() and now().time() > config.quiet_time_end.time() and prevAlarms < config.max_alarms_per_day:
+            flags.append('alarm')
+        else:
+            flags.append('muted')
 
     #Write datapoint to file
     if DEBUG:
         print "Writing data to file"
-    if validData:
-        filename = dw.write_datapoint(datapoint)
-    else:
-        sys.stderr.write("Data seems to be invalid\n")
-        exit(1)
-        
+    filename = dw.write_datapoint(datapoint, flags)
+
     #Write datafile to dropbox
     if DEBUG:
         print "Updating datafile in Dropbox"
@@ -76,25 +121,17 @@ def main():
 
     #Send datapoint to Xively
     if DEBUG:
-        print "Sending data to Xively"       
-    xively = Xively.XivelyHelper()
-    if not xively.get_datastream("test"):
-        xively.create_datastream("test","test")
-    xively.put_datapoint(datapoint)
+        print "Sending data to Xively"
+    if datapoint > -1:
+        xively = Xively.XivelyHelper()
+        if not xively.get_datastream("test"):
+            xively.create_datastream("test","test")
+        xively.put_datapoint(datapoint)
 
-    #Disconnect internet so I can send SMS
-    """if DEBUG:
-        print "Disconnecting internet"
-    call(["sudo", "./sakis3g", "disconnect"])
-    time.sleep(20)"""
-    
     #TODO: SMS stuff here
     if DEBUG:
         print "Up to SMS stuff"
-    sms = SMS.SMS()
-    if datapoint < config.low_water_level:
-        if DEBUG:
-            print "Low water alarm"
+    if 'alarm' in flags:
         sms.sendCommand("")
         #Read the \r\n
         dummy = sms.serialReadline(eol='\n')
@@ -104,27 +141,31 @@ def main():
             print "Not ready to send message"
             del sms
             exit(2)
-        now = datetime.datetime.now()
-        #TODO add formating to now using strftime
         msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%X %x"))
         for no in config.white_list:
             sms.sendMessage(no, msg)
-        
+
 
     #Send stopping and shutdown command
     if DEBUG:
         print "Sending stop"
     #us.send_stop()
-    #Then call sudo halt here or in the script calling this?
-    
-    
+    #TODO: Add sudo halt to script
+
+
 
     #Need to make function to check for new SMS's
-    
-    #Maybe add functionality to update files via dropbox remotely
-    
-    return
 
-    
+    #Maybe add functionality to update files via dropbox remotely
+
+    return 0
+
+#Don't think I need this
+def validate_data(datapoint, prevData):
+    derivative = []
+    for i in range(1,len(prevData)):
+        d = (prevData[i][1] - prevData[i-1][1])/((prevData[i][0] - prevData[i-1][0]).seconds/3600.0)
+        derivative.append(d)
+
 
 main()
