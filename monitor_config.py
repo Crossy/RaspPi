@@ -41,6 +41,9 @@ class Config:
             self.quiet_time_start = datetime.time(hour=int(temp[0:2]), minute=int(temp[2:4]))
             temp = config.get('Options', 'quietTimeEnd')
             self.quiet_time_end = datetime.time(hour=int(temp[0:2]), minute=int(temp[2:4]))
+            if self.quiet_time_start < self.quiet_time_end:
+                self.quiet_time_start = datetime.time(hour=22,minute=0)
+            quiet_time_end = datetime.time(hour=6, minute=0)
             self.sample_period = int(config.get('Options', 'samplePeriod'))
             self.max_alarms_per_day = int(config.get('Options', 'maxAlarmsPerDay'))
 

@@ -10,12 +10,14 @@ import sys
 from subprocess import call
 import time
 import datetime
+import os.path
 
 DEBUG = True
 
 def main():
     flags = []
     dbHelper = Dropbox.DropboxHelper()
+    i2c = I2C_link.I2CConnection()
     dw = data_writer.DataWriter()
     sms = SMS.SMS()
 
@@ -46,6 +48,7 @@ def main():
         print "Reading config file"
     config = monitor_config.Config()
     config.read_config_file()
+    i2c.update_off_period(config.sample_period-5)   #-5 to account for on time
 
     #Maybe add the ability to send log files via dropbox
     if DEBUG:
@@ -59,8 +62,7 @@ def main():
     retries = 0
     for i in range(10):
         #Get sensor readings
-        us = I2C_link.I2CConnection()
-        datapoint = us.get_distance()
+        datapoint = i2c.get_distance()
         now = datetime.datetime.now()
         if datapoint < 0 and retries < 9:
             retries = retries + 1
@@ -149,12 +151,31 @@ def main():
     #Send stopping and shutdown command
     if DEBUG:
         print "Sending stop"
-    #us.send_stop()
+    #i2c.send_stop()
     #TODO: Add sudo halt to script
 
 
 
     #Need to make function to check for new SMS's
+    """
+    Can call and immediately hang up. First check for new SMS's, then check number it came from.
+    Then check first part of message and if it is "You missed a call from"
+    then send most recent data.
+    +CMTI: "ME", 0
+    Need to delete message
+
+    Do I need a mute SMS function? Yes I do in case it gets annoying
+    So check for new message. Check if number is on the whitelist.
+    if msg.lower().strip(' .?,!-:;()$%#"') == "mute":
+        #Mute all msgs for the next 8 hours
+    To show muting is enabled, create a file and check its last modification time
+    using os.path.getmtime(<file>)
+    Then add the "muted" to the flags
+    """
+    """
+    TODO: Credit check. Another datastream? Also look at expiry date and send alert if close
+    TODO: master alerts for errors
+    """
 
     #Maybe add functionality to update files via dropbox remotely
 

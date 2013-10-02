@@ -33,3 +33,12 @@ class I2CConnection:
         self.bus.write_byte(self.addr, 0x20)
         print "stop sent"
         return
+
+    def update_off_period(self, mins):
+        poweroffCycles = int((mins*60)/8.3885)
+        self.bus.write_byte(self.addr, 0x70)    #USI_SET_OFF_PERIOD
+        time.sleep(0.05)
+        self.bus.write_byte(self.addr,poweroffCycles>>8)
+        time.sleep(0.05)
+        self.bus.write_byte(self.addr, 0x00FF&poweroffCycles)
+        return
