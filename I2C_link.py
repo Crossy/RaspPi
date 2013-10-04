@@ -37,7 +37,7 @@ class I2CConnection:
         return
 
     def update_off_period(self, mins):
-        poweroffCycles = int((mins*60)/8.3885)
+        poweroffCycles = int(round((mins*60)/8.3885))
         if poweroffCycles < 0 or poweroffCycles > 65535:
             sys.stderr.write("Invalid minutes parameter. Must be uint16\n")
             return False

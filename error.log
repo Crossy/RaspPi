@@ -1,18 +1,218 @@
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
 No echo received
-No echo received
-No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/ashley/Desktop/thesis/RaspPi/monitoring.py", line 171, in <module>
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
     main()
-  File "/home/ashley/Desktop/thesis/RaspPi/monitoring.py", line 102, in main
-    if dp[0].time() > now.time()-oneDay and len(dp) > 2 and 'alarm' in dp:  #TODO: fix this
-TypeError: unsupported operand type(s) for -: 'datetime.time' and 'datetime.timedelta'
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 39, in main
+    call(["sudo","./internet.sh"])
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1301, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 478, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 32, in main
+    if call(["./ethernet.sh"]) == 0:
+  File "/usr/lib/python2.7/subprocess.py", line 493, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+------------------------------------------------------------------------
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Ultrasonic Sensor: No response
+Problem with ultrasonic sensor
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 214, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 62, in main
+    i2c.update_off_period(config.sample_period-5)   #-5 to account for on time
+  File "/home/ashley/Desktop/thesis/RaspPi/I2C_link.py", line 44, in update_off_period
+    self.bus.write_byte(self.addr, 0x70)    #USI_SET_OFF_PERIOD
+IOError: [Errno 5] Input/output error
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'

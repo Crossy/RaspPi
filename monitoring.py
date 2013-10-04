@@ -19,10 +19,19 @@ def main():
     sys.stderr.write("------------------------------------------------------------------------\n")
 
     flags = []
+    debug_enable = False
     dbHelper = Dropbox.DropboxHelper()
     i2c = I2C_link.I2CConnection()
     dw = data_writer.DataWriter()
     sms = SMS.SMS()
+
+    #Preemptively create debug file in case of major issue
+    call(["touch", "debug"])
+
+    #Check if ethernet is plugged in for debug purposes
+    if call(["./ethernet.sh"]) == 0:
+        print "Raspi will not shutdown due to debug"
+        debug_enable = True
 
     #Start the internet connection
     if DEBUG:
@@ -30,7 +39,6 @@ def main():
     call(["sudo","./internet.sh"])
 
     #Sychronise time
-    #TODO: Fix this
     if DEBUG:
         print "Attempting to update time"
     if call(["sudo", "sntp","-s", "0.au.pool.ntp.org"]) != 0:
@@ -39,7 +47,12 @@ def main():
     #Update config file
     if DEBUG:
         print "Updating Dropbox"
-    dbHelper.get_file('config.ini','config.ini')
+    try:
+        dbHelper.get_file('config.ini','config.ini')
+    except dropbox.rest.ErrorResponse as details:
+       sys.stderr.write("Error getting config file from dropbox\n")
+       pass
+
 
     #TODO: Add configuration stuff here
     if DEBUG:
@@ -52,7 +65,7 @@ def main():
     if DEBUG:
         print "Sending log files for previous runs to Dropbox"
     dbHelper.put_file('info.log', 'info.log', True)
-    dbHelper.put_file('error.log', 'error_log', True)
+    dbHelper.put_file('error.log', 'error.log', True)
 
     prevData = dw.get_previous_datapoints(5)    #TODO: Add max
     if DEBUG:
@@ -70,8 +83,7 @@ def main():
             sys.stderr.write("Problem with ultrasonic sensor\n")
             msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
             sms.sendMessage(config.master,msg)
-            i2c.send_stop()
-            exit(1)
+            exit_program(1, debug_enable, i2c)
         elif datapoint == -2:
             #No echo recieved
             print "Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked"
@@ -79,7 +91,6 @@ def main():
             extraps = 0
             for i in range(1,len(prevData)+1):
                 dp = prevData[-i]
-                print "extrap test: "+str(isinstance(dp,list))+" "+str(len(dp))+" "+str(dp)
                 if isinstance(dp,list) and len(dp) > 2 and 'extrapolated' in dp:
                     extraps = extraps + 1
                 else:
@@ -89,8 +100,7 @@ def main():
                     sys.stderr.write("Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.\n")
                     msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
                     sms.sendMessage(config.master,msg)
-                    i2c.send_stop()
-                    exit(2)
+                    exit_program(2, debug_enable, i2c)
             #If ok to, set datapoint to be previous datapoint
             datapoint = prevData[-1][1]
             print "Setting datapoint to {0} from {1}".format(prevData[-1][1], prevData[-1][0].strftime("%X %x"))
@@ -135,8 +145,6 @@ def main():
         xively.put_datapoint(datapoint)
 
     #TODO: SMS stuff here
-    if DEBUG:
-        print "Up to SMS stuff"
     if 'alarm' in flags:
         sms.sendCommand("")
         #Read the \r\n
@@ -146,17 +154,14 @@ def main():
         if response != "OK":
             print "Not ready to send message"
             del sms
-            exit(3)
+            exit_program(3,debug_enable, i2c)
         msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%X %x"))
         for no in config.white_list:
             sms.sendMessage(no, msg)
 
 
     #Send stopping and shutdown command
-    if DEBUG:
-        print "Sending stop"
-    #i2c.send_stop()
-    #TODO: Add sudo halt to script
+    exit_program(0,debug_enable, i2c)
 
 
 
@@ -184,6 +189,19 @@ def main():
     #Maybe add functionality to update files via dropbox remotely
 
     return 0
+
+def exit_program(exitcode, debug_enable, i2c):
+    if debug_enable:
+        call(["touch", "debug"])
+    else:
+        call(["rm", "debug"])
+        if DEBUG:
+            print "Sending stop via I2C"
+        i2c.send_stop()
+    exit(exitcode)
+    return
+
+
 
 #Don't think I need this
 def validate_data(datapoint, prevData):
