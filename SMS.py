@@ -26,12 +26,17 @@ class SMS:
 
     port = None
     def __init__(self, portString="/dev/ttyUSB1", timeout = 5):
-        self.port = self.openPort(portString, timeout)
+        try:
+            self.port = self.openPort(portString, timeout)
+        except IOError as details:
+            sys.stderr.write(str(details))
 
     def __del__(self):
-
-        if self.port is not None and self.port.isOpen():
+        if self.checkPort():
             self.port.close()
+
+    def checkPort(self):
+        return self.port is not None and self.port.isOpen()
 
     def _debug_(self,response):
         if self.debug:
@@ -53,10 +58,10 @@ class SMS:
         try:
             ser = serial.Serial(port, 115200, timeout = to)
         except ValueError:
-            print "Port parameters are out of range"
+            sys.stderr.write("Port parameters are out of range")
             exit(1)
         except serial.SerialException :
-            print port+" cannot be found or cannot be configured"
+            sys.stderr.write(port+" cannot be found or cannot be configured")
             exit(1)
         return ser
 
