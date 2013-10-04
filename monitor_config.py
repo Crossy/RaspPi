@@ -30,7 +30,7 @@ class Config:
             sys.stderr.write(str(detail)+'\n')
             return False
 
-        try:
+        try:    #TODO: Check for negative values
             self.name = config.get('Tank','name')
             self.maxwaterheight = int(config.get('Tank', 'maxWaterHeight'))
             self.sensorheightabovewater = int(config.get('Tank', 'sensorHeight'))-self.maxwaterheight

@@ -49,12 +49,12 @@ class DataWriter:
         except IOError as details:
             sys.stderr.write(str(details)+'\n')
         datapoints = [dp.split(',') for dp in datapoints]
-        datapoints = [[dp[0], float(dp[1])] for dp in datapoints]
         #Convert timestamp to datetime instances
         for i in range(len(datapoints)):
             dtString = datapoints[i][0]
             dt = datetime.datetime.strptime(dtString, "%Y-%m-%d %H:%M")
             datapoints[i][0] = dt
+            datapoints[i][1] = float(datapoints[i][1])
         return datapoints
 
 """def main():

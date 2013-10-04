@@ -15,14 +15,14 @@ import os.path
 DEBUG = True
 
 def main():
+    print "------------------------------------------------------------------------"
+    sys.stderr.write("------------------------------------------------------------------------\n")
+
     flags = []
     dbHelper = Dropbox.DropboxHelper()
     i2c = I2C_link.I2CConnection()
     dw = data_writer.DataWriter()
     sms = SMS.SMS()
-
-    print "------------------------------------------------------------------------"
-    sys.stderr.write("------------------------------------------------------------------------\n")
 
     #Start the internet connection
     if DEBUG:
@@ -33,9 +33,7 @@ def main():
     #TODO: Fix this
     if DEBUG:
         print "Attempting to update time"
-    #call(["sudo","service", "ntp", "restart"])
-    call(["sudo", "ntpd", "-g"])
-    if call(["ntp-wait", "-v"]) != 0:
+    if call(["sudo", "sntp","-s", "0.au.pool.ntp.org"]) != 0:
        sys.stderr.write("Cannot sychronise time\n")
 
     #Update config file
@@ -50,7 +48,7 @@ def main():
     config.read_config_file()
     i2c.update_off_period(config.sample_period-5)   #-5 to account for on time
 
-    #Maybe add the ability to send log files via dropbox
+    #Send log files to Dropbox
     if DEBUG:
         print "Sending log files for previous runs to Dropbox"
     dbHelper.put_file('info.log', 'info.log', True)
@@ -59,13 +57,12 @@ def main():
     prevData = dw.get_previous_datapoints(5)    #TODO: Add max
     if DEBUG:
         print "Getting and validating datapoint"
-    retries = 0
-    for i in range(10):
+
+    for retries in range(10):
         #Get sensor readings
         datapoint = i2c.get_distance()
         now = datetime.datetime.now()
         if datapoint < 0 and retries < 9:
-            retries = retries + 1
             time.sleep(5)      #TODO: Change this back to 20 for field operation #Try again later
             continue
         elif datapoint  == -1:
@@ -73,27 +70,33 @@ def main():
             sys.stderr.write("Problem with ultrasonic sensor\n")
             msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
             sms.sendMessage(config.master,msg)
+            i2c.send_stop()
             exit(1)
         elif datapoint == -2:
             #No echo recieved
             print "Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked"
             #Check for previous extrapolated data
             extraps = 0
-            for dp in range(len(prevData), -1, 0):
-                if len(dp) > 2 and 'extrapolated' in dp:
+            for i in range(1,len(prevData)+1):
+                dp = prevData[-i]
+                print "extrap test: "+str(isinstance(dp,list))+" "+str(len(dp))+" "+str(dp)
+                if isinstance(dp,list) and len(dp) > 2 and 'extrapolated' in dp:
                     extraps = extraps + 1
                 else:
                     extraps = 0
-                if extraps > 2:
+                if extraps > 3:
                     #TODO: Error. Do I exit here or just write -1 as the data? Probably exit. Sending useless data is not very helpful
-                    break
+                    sys.stderr.write("Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.\n")
+                    msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
+                    sms.sendMessage(config.master,msg)
+                    i2c.send_stop()
+                    exit(2)
             #If ok to, set datapoint to be previous datapoint
-            datapoint = prevData[-1]
+            datapoint = prevData[-1][1]
+            print "Setting datapoint to {0} from {1}".format(prevData[-1][1], prevData[-1][0].strftime("%X %x"))
             flags.append('extrapolated')
-
-        if datapoint >= 0:
+        elif datapoint >= 0:
             datapoint = 100 - ((float(datapoint)-config.sensorheightabovewater)/config.maxwaterheight * 100) #Convert to perentage
-
         break;
 
     #Check if any alerts need to be sent
@@ -101,14 +104,15 @@ def main():
     oneDay = datetime.timedelta(days=1)
     prevAlarms = 0
     for dp in prevData:
-        if dp[0].time() > now.time()-oneDay and len(dp) > 2 and 'alarm' in dp:  #TODO: fix this
-            prevAlarm = prevAlarms + 1
+        if dp[0] > (now-oneDay) and len(dp) > 2 and 'alarm' in dp:  #TODO: fix this
+            prevAlarms = prevAlarms + 1
     if datapoint < config.low_water_level:
         if DEBUG:
             print "Low water alarm"
-        if now().time() < config.quiet_time_start.time() and now().time() > config.quiet_time_end.time() and prevAlarms < config.max_alarms_per_day:
+        if now.time() < config.quiet_time_start and now.time() > config.quiet_time_end and prevAlarms < config.max_alarms_per_day:
             flags.append('alarm')
         else:
+            print "Muted alarm due to max alarms in a day"
             flags.append('muted')
 
     #Write datapoint to file
@@ -142,7 +146,7 @@ def main():
         if response != "OK":
             print "Not ready to send message"
             del sms
-            exit(2)
+            exit(3)
         msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%X %x"))
         for no in config.white_list:
             sms.sendMessage(no, msg)

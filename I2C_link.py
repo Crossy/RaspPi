@@ -2,6 +2,7 @@ import smbus
 import time
 import os
 import sys
+import struct
 
 """Requires root priveleges to run"""
 class I2CConnection:
@@ -10,6 +11,7 @@ class I2CConnection:
     def __init__(self):
         pass
 
+    #TODO: IOError Exception handling
     def get_distance(self):
         self.bus.write_byte(self.addr, 0x10)
         time.sleep(0.2)
@@ -36,9 +38,14 @@ class I2CConnection:
 
     def update_off_period(self, mins):
         poweroffCycles = int((mins*60)/8.3885)
+        if poweroffCycles < 0 or poweroffCycles > 65535:
+            sys.stderr.write("Invalid minutes parameter. Must be uint16\n")
+            return False
         self.bus.write_byte(self.addr, 0x70)    #USI_SET_OFF_PERIOD
-        time.sleep(0.05)
+        time.sleep(0.2)
+        #TODO: Do I need to make sure this is bytes?
+        #temp = bytes(poweroff
         self.bus.write_byte(self.addr,poweroffCycles>>8)
-        time.sleep(0.05)
+        time.sleep(0.2)
         self.bus.write_byte(self.addr, 0x00FF&poweroffCycles)
-        return
+        return True

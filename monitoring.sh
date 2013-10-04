@@ -11,3 +11,5 @@ if [ $? != 0 ] ; then
 else
     echo "Monitoring process completed successfully"
 fi
+
+#sudo halt

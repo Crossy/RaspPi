@@ -78,7 +78,7 @@ class DropboxHelper:
         to_file = open(os.path.expanduser(to_path), "wb")
 
         f, metadata = self.api_client.get_file_and_metadata(self.current_path + "/" + from_path)
-        print 'Metadata:', metadata
+        #print 'Metadata:', metadata
         to_file.write(f.read())
 
     def put_file(self, from_path, to_path, overwrite):
