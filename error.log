@@ -1,292 +1,127 @@
 ------------------------------------------------------------------------
-[Errno 2] No such file or directory: '2013-09.csv'
-No echo received
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
+[Errno 2] No such file or directory: '2013-10.csv'
+[Errno 2] No such file or directory: '2013-10.csv'
 ------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
+[Errno 5] Input/output error[Errno 2] No such file or directory: '2013-09.csv'
+[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 2] No such file or directory: '2013-09.csv'
+[Errno 5] Input/output error------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 5] Input/output error[Errno 2] No such file or directory: '2013-09.csv'
+[Errno 5] Input/output error------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+  File "/home/ashley/thesis/monitoring.py", line 228, in <module>
     main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 39, in main
-    call(["sudo","./internet.sh"])
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 1301, in wait
-    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
-  File "/usr/lib/python2.7/subprocess.py", line 478, in _eintr_retry_call
-    return func(*args)
+  File "/home/ashley/thesis/monitoring.py", line 61, in main
+    dbHelper.get_file('config.ini',path+'/config.ini')
+  File "/home/ashley/Desktop/thesis/RaspPi/Dropbox.py", line 80, in get_file
+    f, metadata = self.api_client.get_file_and_metadata(self.current_path + "/" + from_path)
+  File "build/bdist.linux-armv6l/egg/dropbox/client.py", line 206, in get_file_and_metadata
+  File "build/bdist.linux-armv6l/egg/dropbox/client.py", line 183, in get_file
+  File "build/bdist.linux-armv6l/egg/dropbox/rest.py", line 261, in request
+  File "build/bdist.linux-armv6l/egg/dropbox/rest.py", line 153, in request
+  File "/usr/lib/python2.7/httplib.py", line 962, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python2.7/httplib.py", line 996, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python2.7/httplib.py", line 958, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 818, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 780, in send
+    self.connect()
+  File "build/bdist.linux-armv6l/egg/dropbox/rest.py", line 42, in connect
+  File "/usr/lib/python2.7/ssl.py", line 381, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/lib/python2.7/ssl.py", line 143, in __init__
+    self.do_handshake()
+  File "/usr/lib/python2.7/ssl.py", line 305, in do_handshake
+    self._sslobj.do_handshake()
 KeyboardInterrupt
 ------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+No echo received
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+[Errno 2] No such file or directory: '2013-09.csv'
+------------------------------------------------------------------------
+Cannot sychronise time
 Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
+  File "/home/ashley/thesis/monitoring.py", line 228, in <module>
     main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 215, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 32, in main
-    if call(["./ethernet.sh"]) == 0:
-  File "/usr/lib/python2.7/subprocess.py", line 493, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 679, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1259, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory
-------------------------------------------------------------------------
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Problem with ultrasonic sensor
+  File "/home/ashley/thesis/monitoring.py", line 61, in main
+    dbHelper.get_file('config.ini',path+'/config.ini')
+  File "/home/ashley/Desktop/thesis/RaspPi/Dropbox.py", line 80, in get_file
+    f, metadata = self.api_client.get_file_and_metadata(self.current_path + "/" + from_path)
+  File "build/bdist.linux-armv6l/egg/dropbox/client.py", line 206, in get_file_and_metadata
+  File "build/bdist.linux-armv6l/egg/dropbox/client.py", line 183, in get_file
+  File "build/bdist.linux-armv6l/egg/dropbox/rest.py", line 261, in request
+  File "build/bdist.linux-armv6l/egg/dropbox/rest.py", line 188, in request
+dropbox.rest.RESTSocketError: Error connecting to "api-content.dropbox.com": [Errno -2] Name or service not known
 ------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
 [Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-No echo received
-Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
 ------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 214, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 62, in main
-    i2c.update_off_period(config.sample_period-5)   #-5 to account for on time
-  File "/home/ashley/Desktop/thesis/RaspPi/I2C_link.py", line 44, in update_off_period
-    self.bus.write_byte(self.addr, 0x70)    #USI_SET_OFF_PERIOD
-IOError: [Errno 5] Input/output error
-------------------------------------------------------------------------
 [Errno 2] No such file or directory: '2013-09.csv'
 ------------------------------------------------------------------------
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Problem with ultrasonic sensor
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Problem with ultrasonic sensor
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Ultrasonic Sensor: No response
-Problem with ultrasonic sensor
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'
-Traceback (most recent call last):
-  File "/home/ashley/thesis/monitoring.py", line 226, in <module>
-    main()
-  File "/home/ashley/thesis/monitoring.py", line 176, in main
-    exit_program(0,debug_enable, i2c)
-  File "/home/ashley/thesis/monitoring.py", line 209, in exit_program
-    call(["sudo rm debug"],shell=True,stderr=DEVNULL,stdout=DEVNULL)
-NameError: global name 'DEVNULL' is not defined
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'
-------------------------------------------------------------------------
-rm: cannot remove `/home/ashley/thesis/alarm': No such file or directory
-[Errno 2] No such file or directory: '2013-09.csv'

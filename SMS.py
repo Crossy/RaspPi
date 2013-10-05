@@ -29,7 +29,7 @@ class SMS:
         try:
             self.port = self.openPort(portString, timeout)
         except IOError as details:
-            sys.stderr.write(str(details))
+            sys.stderr.write("SMS: ",str(details))
 
     def __del__(self):
         if self.checkPort():

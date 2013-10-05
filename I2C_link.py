@@ -20,7 +20,7 @@ class I2CConnection:
             ret |= (self.bus.read_byte_data(self.addr, 0x50)&0x0F)<<4
             ret |= (self.bus.read_byte_data(self.addr, 0x60)&0x0F)
         except IOError as detail:
-            sys.stderr.write(str(detail))
+            sys.stderr.write("I2C: ",str(detail))
             return -2
 
         if ret > 65000:
@@ -38,7 +38,7 @@ class I2CConnection:
         try:
             self.bus.write_byte(self.addr, 0x20)
         except IOError as detail:
-            sys.stderr.write(str(detail))
+            sys.stderr.write("I2C: ",str(detail))
             return
         print "Stop sent"
         return
@@ -55,6 +55,6 @@ class I2CConnection:
             time.sleep(0.2)
             self.bus.write_byte(self.addr, 0x00FF&poweroffCycles)
         except IOError as detail:
-            sys.stderr.write(str(detail))
+            sys.stderr.write("I2C: ",str(detail))
             return False
         return True

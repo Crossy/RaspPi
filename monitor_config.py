@@ -6,14 +6,15 @@ import sys
 
 class Config:
     name = ''
-    maxwaterheight = 1      #Centimetres
-    sensorheightabovewater = 1        #Centimetres
-    low_water_level = 25    #Percent
+    maxwaterheight = 250      #Centimetres
+    sensorheightabovewater = 280        #Centimetres
+    low_water_level = 50    #Percent
 
     quiet_time_start = datetime.time(hour=22,minute=0)
     quiet_time_end = datetime.time(hour=6, minute=0)
-    sample_period = 60   #Minutes
+    off_time = 60   #Minutes
     max_alarms_per_day = 5
+    retry_time = 15      #Minutes
 
     master = '0488598262'
     white_list = []
@@ -49,12 +50,15 @@ class Config:
             if self.quiet_time_start < self.quiet_time_end:
                 self.quiet_time_start = datetime.time(hour=22,minute=0)
             quiet_time_end = datetime.time(hour=6, minute=0)
-            self.sample_period = int(config.get('Options', 'samplePeriod'))
-            if self.sample_period < 5:
-                self.sample_period = 5
+            self.off_time = int(config.get('Options', 'offTime'))
+            if self.off_time < 0:
+                self.sample_period = 0
             self.max_alarms_per_day = int(config.get('Options', 'maxAlarmsPerDay'))
             if self.max_alarms_per_day < 0:
                 self.max_alarms_per_day = 0
+            self.retry_time = int(config.get('Options', 'retryTime'))
+            if self.retry_time < 0:
+                self.retry_time = 10
 
             self.white_list = config.options('WhiteList')
             if len(self.white_list) == 0:

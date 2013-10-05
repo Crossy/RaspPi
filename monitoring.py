@@ -20,6 +20,7 @@ def main():
     debug_enable = False
     DEVNULL= open(os.devnull,'wb')
     print "------------------------------------------------------------------------"
+    sys.stdout.flush()
     sys.stderr.write("------------------------------------------------------------------------\n")
 
     #Preemptively create debug file in case of major issue
@@ -67,7 +68,7 @@ def main():
         print "Reading config file"
     config = monitor_config.Config()
     config.read_config_file()
-    i2c.update_off_period(config.sample_period-5)   #-5 to account for on time
+    i2c.update_off_period(config.off_time)
 
     #Send log files to Dropbox
     if DEBUG:
@@ -84,7 +85,7 @@ def main():
         datapoint = i2c.get_distance()
         now = datetime.datetime.now()
         if datapoint < 0 and retries < 9:
-            time.sleep(5)      #TODO: Change this back to 20 for field operation #Try again later
+            time.sleep(config.retry_time)      #TODO: Change this back to 20 for field operation #Try again later
             continue
         elif datapoint  == -1:
             #No response
@@ -118,7 +119,7 @@ def main():
             flags.append('extrapolated')
         elif datapoint >= 0:
             datapoint = 100 - ((float(datapoint)-config.sensorheightabovewater)/config.maxwaterheight * 100) #Convert to perentage
-            call(["rm", path+"/alarm"])
+            call(["rm", path+"/alarm"], stderr=DEVNULL, stdout=DEVNULL)
         break;
 
     #Check if any alerts need to be sent
