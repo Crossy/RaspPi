@@ -20,26 +20,30 @@ class I2CConnection:
             ret |= (self.bus.read_byte_data(self.addr, 0x50)&0x0F)<<4
             ret |= (self.bus.read_byte_data(self.addr, 0x60)&0x0F)
         except IOError as detail:
-            sys.stderr.write("I2C: ",str(detail))
+            sys.stderr.write("I2C GET_DISTANCE: "+str(detail)+'\n')
             return -2
 
         if ret > 65000:
-            #print hex(ret)
             ret-=0x10000
             if ret == -1:
-                sys.stderr.write("Ultrasonic Sensor: No response\n")
+                sys.stderr.write("Ultrasonic Sensor: No or invalid response\n")
                 return -1
             elif ret == -2:
-                sys.stderr.write("No echo received\n")
+                sys.stderr.write("Ultrasonic Sensor: No echo received\n")
                 return -2
+            else:
+                sys.stderr.write("Ultrasonic Sensor: Unknown response received\n")
+                return -1
         return ret
 
     def send_stop(self):
-        try:
-            self.bus.write_byte(self.addr, 0x20)
-        except IOError as detail:
-            sys.stderr.write("I2C: ",str(detail))
-            return
+        while True:
+            try:
+                self.bus.write_byte(self.addr, 0x20)
+            except IOError as detail:
+                sys.stderr.write("I2C SEND_STOP: "+str(detail)+'\n')
+                sys.stderr.write("I2C SEND_STOP: Retrying in 1 sec\n")
+                time.sleep(1)
         print "Stop sent"
         return
 
@@ -55,6 +59,6 @@ class I2CConnection:
             time.sleep(0.2)
             self.bus.write_byte(self.addr, 0x00FF&poweroffCycles)
         except IOError as detail:
-            sys.stderr.write("I2C: ",str(detail))
+            sys.stderr.write("I2C UPDATE_OFF_PERIOD: "+str(detail)+'\n')
             return False
         return True

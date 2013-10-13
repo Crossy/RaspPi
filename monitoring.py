@@ -17,8 +17,9 @@ DEBUG = True
 
 def main():
     path = "/home/ashley/thesis"
-    debug_enable = False
+    internet_connection = False
     DEVNULL= open(os.devnull,'wb')
+
     print "------------------------------------------------------------------------"
     sys.stdout.flush()
     sys.stderr.write("------------------------------------------------------------------------\n")
@@ -26,55 +27,64 @@ def main():
     #Preemptively create debug file in case of major issue
     call(["touch", path+"debug"])
 
-    #Check if ethernet is plugged in for debug purposes
-    if call([path+"/ethernet.sh"]) == 0:
-        print "Raspi will not shutdown because ethernet is connected. Debug mode is enabled"
-        debug_enable = True
-
     flags = []
 
-    dbHelper = Dropbox.DropboxHelper()
     i2c = I2C_link.I2CConnection()
     dw = data_writer.DataWriter()
 
     #Check if mobile broadband USB is connected
     if call(["ls /dev/tty* | grep USB"], shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
         sys.stderr.write("ERROR: Modem is not connected. Exiting\n")
-        exit_program(3, debug_enable, i2c)
+        return 3
     sms = SMS.SMS()
 
     #Start the internet connection
     if DEBUG:
         print "Starting Internet connection"
+        sys.stdout.flush()
     call(["sudo",path+"/internet.sh"])
+
+    if call(["ping", "-c", "4" ,"www.google.com.au"], stderr=DEVNULL, stdout=DEVNULL) == 0:
+        internet_connection = True
+    else:
+        internet_connection = False
+        sys.stderr.write("Ping failed. No internet connection\n")
+
+    dbHelper = Dropbox.DropboxHelper()
 
     #Sychronise time
     if DEBUG:
         print "Attempting to update time"
-    if call(["sudo sntp -s 0.au.pool.ntp.org"], shell=True) != 0:
+        sys.stdout.flush()
+    if internet_connection and call(["sudo sntp -s 0.au.pool.ntp.org"], shell=True) != 0:
        sys.stderr.write("Cannot sychronise time\n")
+
+    now = datetime.datetime.now()
+    if DEBUG:
+        print now.ctime()
+        sys.stdout.flush()
+        sys.stderr.write(now.ctime()+'\n')
 
     #Update config file
     if DEBUG:
         print "Updating Dropbox"
+        sys.stdout.flush()
     try:
-        dbHelper.get_file('config.ini',path+'/config.ini')
+        if internet_connection:
+            dbHelper.get_file('config.ini',path+'/config.ini')
     except rest.ErrorResponse as details:
-       sys.stderr.write("Error getting config file from dropbox\n")
+       sys.stderr.write("MONITORING: Error getting config file from Dropbox\n" + str(details) + '\n')
        pass
+    except rest.RESTSocketError as details:
+        sys.stderr.write("MONITORING: Error getting config file from Dropbox\n" + str(details) + '\n')
+        pass
 
-    #Config file
+    #Parse config file
     if DEBUG:
         print "Reading config file"
     config = monitor_config.Config()
     config.read_config_file()
     i2c.update_off_period(config.off_time)
-
-    #Send log files to Dropbox
-    if DEBUG:
-        print "Sending log files for previous runs to Dropbox"
-    dbHelper.put_file(path+'/info.log', 'info.log', True)
-    dbHelper.put_file(path+'/error.log', 'error.log', True)
 
     prevData = dw.get_previous_datapoints(5)    #TODO: Add max
     if DEBUG:
@@ -83,18 +93,20 @@ def main():
     for retries in range(10):
         #Get sensor readings
         datapoint = i2c.get_distance()
+        print "Raw datapoint = " + str(datapoint)
         now = datetime.datetime.now()
+
         if datapoint < 0 and retries < 9:
-            time.sleep(config.retry_time)      #TODO: Change this back to 20 for field operation #Try again later
+            time.sleep(config.retry_time)      #Try again later
             continue
         elif datapoint  == -1:
-            #No response
+            #No or invalid response
             sys.stderr.write("Problem with ultrasonic sensor\n")
             if call(["ls "+path+" | grep alarm &> /dev/null"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
                 call(["touch", path+"/alarm"])
-                msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
+                msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%H:%M %d/%m/%Y"))
                 sms.sendMessage(config.master,msg)
-            exit_program(1, debug_enable, i2c)
+            return 1
         elif datapoint == -2:
             #No echo recieved
             print "Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked"
@@ -110,12 +122,12 @@ def main():
                     sys.stderr.write("Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.\n")
                     if call(["ls "+path+" | grep alarm &> /dev/null"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
                         call(["touch", path+"/alarm"])
-                        msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%X %x"))
+                        msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%H:%M %d/%m/%Y"))
                         sms.sendMessage(config.master,msg)
-                    exit_program(2, debug_enable, i2c)
+                    return 2
             #If ok to, set datapoint to be previous datapoint
             datapoint = prevData[-1][1]
-            print "Setting datapoint to {0} from {1}".format(prevData[-1][1], prevData[-1][0].strftime("%X %x"))
+            print "Setting datapoint to {0} from {1}".format(prevData[-1][1], prevData[-1][0].strftime("%H:%M %d/%m/%Y"))
             flags.append('extrapolated')
         elif datapoint >= 0:
             datapoint = 100 - ((float(datapoint)-config.sensorheightabovewater)/config.maxwaterheight * 100) #Convert to perentage
@@ -146,7 +158,15 @@ def main():
     #Write datafile to dropbox
     if DEBUG:
         print "Updating datafile in Dropbox"
-    dbHelper.put_file(filename, filename, True)
+    try:
+        if internet_connection:
+            dbHelper.put_file(filename, filename, True)
+    except rest.ErrorResponse as details:
+        sys.stderr.write("MONITORING: Error updating datafile in Dropbox\n" + str(details) + '\n')
+        pass
+    except rest.RESTSocketError as details:
+        sys.stderr.write("MONITORING: Error updating datafile in Dropbox\n" + str(details) + '\n')
+        pass
 
     #Send datapoint to Xively
     if DEBUG:
@@ -167,16 +187,14 @@ def main():
         if response != "OK":
             print "Not ready to send message"
             del sms
-            exit_program(3,debug_enable, i2c)
-        msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%X %x"))
+            return 3
+        msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%H:%M %d/%m/%Y"))
         for no in config.white_list:
             sms.sendMessage(no, msg)
 
 
     #Send stopping and shutdown command
-    exit_program(0,debug_enable, i2c)
-
-
+    return 0
 
     #Need to make function to check for new SMS's
     """
@@ -200,22 +218,6 @@ def main():
     """
 
     #Maybe add functionality to update files via dropbox remotely
-
-    return 0
-
-def exit_program(exitcode, debug_enable, i2c):
-    DEVNULL = open(os.devnull,'wb')
-    if debug_enable:
-        call(["touch", "debug"])
-    else:
-        call(["sudo rm debug"],shell=True,stderr=DEVNULL,stdout=DEVNULL)
-        if DEBUG:
-            print "Sending stop via I2C. Power off in 30 secs"
-        i2c.send_stop()
-    exit(exitcode)
-    return
-
-
 
 """#Don't think I need this
 def validate_data(datapoint, prevData):
