@@ -2596,3 +2596,3647 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.xively.com', p
 SHUTDOWN: Error putting logfiles into Dropbox
 Error connecting to "api-content.dropbox.com": [Errno -2] Name or service not known
 #########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 19:56:28 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:00:05 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error------------------------------------------------------------------------
+Sun Oct 13 20:03:27 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:07:16 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retryin------------------------------------------------------------------------
+Sun Oct 13 20:10:46 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:14:33 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in ------------------------------------------------------------------------
+Sun Oct 13 20:18:46 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:22:18 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Re------------------------------------------------------------------------
+Sun Oct 13 20:25:40 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:29:18 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retryin------------------------------------------------------------------------
+Sun Oct 13 20:32:59 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:36:23 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] ------------------------------------------------------------------------
+Sun Oct 13 20:40:03 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:43:54 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] ------------------------------------------------------------------------
+Sun Oct 13 20:47:10 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:51:05 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] ------------------------------------------------------------------------
+Sun Oct 13 20:55:38 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 20:59:30 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] ------------------------------------------------------------------------
+Sun Oct 13 21:02:58 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:06:43 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Re------------------------------------------------------------------------
+Sun Oct 13 21:10:03 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:13:33 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STO------------------------------------------------------------------------
+Sun Oct 13 21:17:09 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:20:29 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STO------------------------------------------------------------------------
+Sun Oct 13 21:23:49 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:27:28 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input------------------------------------------------------------------------
+Sun Oct 13 21:31:33 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:35:12 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retryin------------------------------------------------------------------------
+Sun Oct 13 21:38:58 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+Sun Oct 13 21:42:48 2013
+I2C UPDATE_OFF_PERIOD: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
+I2C GET_DISTANCE: [Errno 5] Input/output error
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+I2C SEND_STOP: [Errno 5] Input/output error
+I2C SEND_STOP: Retrying in 1 sec
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SHUTDOWN: Error putting logfiles into Dropbox
+Error connecting to "api-content.dropbox.com": [Errno 104] Connection reset by peer
+#########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+ERROR: Modem is not connected. Exiting
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SHUTDOWN: Error putting logfiles into Dropbox
+Error connecting to "api-content.dropbox.com": [Errno -2] Name or service not known
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 22:56:09 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:13:18 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:18:24 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:22:30 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:26:24 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:29:54 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:33:29 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:37:04 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:40:39 2013
+Ultrasonic Sensor: Unknown response received
+Ultrasonic Sensor: Unknown response received
+Ultrasonic Sensor: Unknown response received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Sun Oct 13 23:45:27 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 09:41:25 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+MONITORING: Error updating datafile in Dropbox
+Error connecting to "api-content.dropbox.com": [Errno -2] Name or service not known
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 09:46:22 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 09:51:43 2013
+MONITORING: Error getting config file from Dropbox
+Error connecting to "api-content.dropbox.com": [Errno 110] Connection timed out
+No section: 'Tank'
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Ping failed. No internet connection
+Mon Oct 14 10:10:56 2013
+No section: 'Tank'
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Traceback (most recent call last):
+  File "/home/ashley/thesis/monitoring.py", line 230, in <module>
+    main()
+  File "/home/ashley/thesis/monitoring.py", line 175, in main
+    xively = Xively.XivelyHelper()
+  File "/home/ashley/Desktop/thesis/RaspPi/Xively.py", line 19, in __init__
+    self.feed = self.api.feeds.get(feed_id)
+  File "/usr/local/lib/python2.7/dist-packages/xively/managers.py", line 263, in get
+    response = self.client.get(url, params=params)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 347, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/xively/client.py", line 77, in request
+    return super(Client, self).request(method, full_url, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 335, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/sessions.py", line 438, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/requests/adapters.py", line 327, in send
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.xively.com', port=80): Max retries exceeded with url: /v2/feeds/468241028 (Caused by <class 'socket.gaierror'>: [Errno -2] Name or service not known)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SHUTDOWN: Error putting logfiles into Dropbox
+Error connecting to "api-content.dropbox.com": [Errno -2] Name or service not known
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 10:53:18 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 10:56:46 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 11:52:31 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 12:55:04 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:30:40 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+------------------------------------------------------------------------
+Mon Oct 14 13:33:47 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:37:53 2013
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:41:17 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:45:09 2013
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Problem with ultrasonic sensor
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:49:51 2013
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Problem with ultrasonic sensor
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 13:54:32 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Ping failed. No internet connection
+Mon Oct 14 19:07:41 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 20:37:59 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 20:54:13 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 21:04:30 2013
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Problem with ultrasonic sensor
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Mon Oct 14 21:18:19 2013
+Ultrasonic Sensor: No echo received
+------------------------------------------------------------------------
+Mon Oct 14 21:21:24 2013
+Ultrasonic Sensor: No or invalid response
+------------------------------------------------------------------------
+Mon Oct 14 21:23:32 2013
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No or invalid response
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Tue Oct 15 00:45:08 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################

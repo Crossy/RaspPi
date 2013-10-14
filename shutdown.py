@@ -43,7 +43,9 @@ def main():
         if DEBUG:
             print "Sending stop via I2C. Power off in 30 secs"
             sys.stdout.flush()
-        i2c.send_stop()
+        if not i2c.send_stop():
+            call(["sudo","reboot"],stderr=DEVNULL,stdout=DEVNULL)
+        
 
     print "#########################################################################"
     sys.stdout.flush()

@@ -11,8 +11,10 @@ class SMS:
     text_mode = "+CMGF=1"       #Set to text mode for sms communication
     pdu_mode = "+CMGF=0"
     send_sms = "+CMGS="
-    list_all_received_sms = '+CMGL='
+    list_sms = '+CMGL='
     list_all = '"ALL"'
+    list_unread = '"REC UNREAD"'
+    list_read = '"REC READ"'
     delete_sms = "+CMGD="
     ctrl_z = chr(26)        #Used to send message
     signal_strength = "+CSQ"
@@ -128,6 +130,33 @@ class SMS:
         if response != "OK":
             print "Error sending"
         return
+
+    def list_unread_messages(self):
+        self.sendCommand(self.text_mode)
+        #Read the \n\r\n
+        dummy = self.serialReadline(eol='\n')
+        #dummy = serialReadline(ser, eol='\n')
+        #Read response
+        response = self.serialReadline().strip()    #should be OK
+        if response != "OK":
+            print "Device can't get into text mode"
+
+        self.sendCommand(list_sms+list_read)
+        response = self.serialReadline().strip()    #should be OK
+        if response != "OK":
+            print "Device can't get into text mode"
+
+    def readMessage(self):
+        self.sendCommand(self.text_mode)
+        #Read the \n\r\n
+        dummy = self.serialReadline(eol='\n')
+        #dummy = serialReadline(ser, eol='\n')
+        #Read response
+        response = self.serialReadline().strip()    #should be OK
+        if response != "OK":
+            print "Device can't get into text mode"
+
+
 
     def printPorts(self):
         for port in list_ports.comports():

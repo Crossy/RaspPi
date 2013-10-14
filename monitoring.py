@@ -172,10 +172,13 @@ def main():
     if DEBUG:
         print "Sending data to Xively"
     if datapoint > -1:
-        xively = Xively.XivelyHelper()
-        if not xively.get_datastream("test"):
-            xively.create_datastream("test","test")
-        xively.put_datapoint(datapoint)
+        try:
+            xively = Xively.XivelyHelper()
+            if not xively.get_datastream("test"):
+                xively.create_datastream("test","test")
+            xively.put_datapoint(datapoint)
+        except IOError as details:
+            sys.stderr.write("XIVELY: Error writing to feed\n" + str(details) + '\n');
 
     #TODO: SMS stuff here
     if 'alarm' in flags:
