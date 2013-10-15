@@ -25,6 +25,7 @@ if [ $? != 0 ] ; then
 else
    echo "Shutdown process complted successfully"
 fi
+sudo $thesis/size.sh
 if [ -e $thesis/debug ] ; then
    echo "RASPI will not shutdown because debug file present"
 else

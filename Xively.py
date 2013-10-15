@@ -48,4 +48,4 @@ class XivelyHelper:     #Change name probably
         except requests.HTTPError as e:
           print "HTTPError({0}): {1}".format(e.errno, e.strerror)
         if self.debug:
-            print "Updating Xively feed with value: %s" % datapoint
+            print "Updating Xively feed with value: %s" % self.datastream.current_value

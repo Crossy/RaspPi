@@ -14,7 +14,7 @@ class DataWriter:
         with open(filename,'ab') as f:
             writer = csv.writer(f,'excel')
             dateTime = now.strftime("%Y-%m-%d %H:%M")
-            row = [dateTime,datapoint]
+            row = [dateTime,"{0:.2f}".format(datapoint)]
             row.extend(flags)
             writer.writerow(row)
             f.close()

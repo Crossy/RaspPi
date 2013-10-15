@@ -10,7 +10,6 @@ class I2CConnection:
     def __init__(self):
         pass
 
-    #TODO: IOError Exception handling
     def get_distance(self):
         try:
             self.bus.write_byte(self.addr, 0x10)
@@ -107,7 +106,7 @@ class I2CConnection:
                 retries = retries + 1
                 time.sleep(1)
         if sent:
-            print "ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset"
+            print "ATTINY24 now in debug mode. Watchdog is disabled. Won't reenable until power reset"
         else:
             sys.stderr.write("I2C DEBUG_MODE: Failed to set debug mode.\n")
         return sent

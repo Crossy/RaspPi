@@ -102,10 +102,12 @@ def main():
         elif datapoint  == -1:
             #No or invalid response
             sys.stderr.write("Problem with ultrasonic sensor\n")
-            if call(["ls "+path+" | grep alarm &> /dev/null"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
-                call(["touch", path+"/alarm"])
+            if call(["ls "+path+" | grep error_alarm"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
+                call(["touch", path+"/error_alarm"])
                 msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%H:%M %d/%m/%Y"))
                 sms.sendMessage(config.master,msg)
+            else:
+                print "Muted alarm"
             return 1
         elif datapoint == -2:
             #No echo recieved
@@ -120,10 +122,12 @@ def main():
                     extraps = 0
                 if extraps > 3:
                     sys.stderr.write("Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.\n")
-                    if call(["ls "+path+" | grep alarm &> /dev/null"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
-                        call(["touch", path+"/alarm"])
+                    if call(["ls "+path+" | grep error_alarm"],shell=True,stderr=DEVNULL,stdout=DEVNULL) != 0:
+                        call(["touch", path+"/error_alarm"])
                         msg = "Problem with sensor for tank {0} @ {1}".format(config.name, now.strftime("%H:%M %d/%m/%Y"))
                         sms.sendMessage(config.master,msg)
+                    else:
+                        print "Muted alarm"
                     return 2
             #If ok to, set datapoint to be previous datapoint
             datapoint = prevData[-1][1]
@@ -131,7 +135,7 @@ def main():
             flags.append('extrapolated')
         elif datapoint >= 0:
             datapoint = 100 - ((float(datapoint)-config.sensorheightabovewater)/config.maxwaterheight * 100) #Convert to perentage
-            call(["rm", path+"/alarm"], stderr=DEVNULL, stdout=DEVNULL)
+            call(["rm", path+"/error_alarm"], stderr=DEVNULL, stdout=DEVNULL)
         break;
 
     #Check if any alerts need to be sent
@@ -191,7 +195,7 @@ def main():
             print "Not ready to send message"
             del sms
             return 3
-        msg = "ALERT: Water level at {0}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%H:%M %d/%m/%Y"))
+        msg = "ALERT: Water level at {0:.2f}% in {1} tank @ {2}".format(datapoint, config.name,now.strftime("%H:%M %d/%m/%Y"))
         for no in config.white_list:
             sms.sendMessage(no, msg)
 

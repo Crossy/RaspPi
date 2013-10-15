@@ -6374,3 +6374,42 @@ Raw datapoint = -1
 [loaded access token]
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset
+Sending log files for previous runs to Dropbox
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 20:36:38 sntp[13408]: Started sntp
+2013-10-15 20:36:39.090366 (-1000) +0.005843 +/- 0.039734 secs
+2013-10-15 20:36:39.426036 (-1000) -0.009109 +/- 0.068375 secs
+2013-10-15 20:36:39.756942 (-1000) +0.079468 +/- 0.082687 secs
+2013-10-15 20:36:40.186776 (-1000) -0.060387 +/- 0.063019 secs
+Tue Oct 15 20:36:40 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset
+Sending log files for previous runs to Dropbox
+#########################################################################
