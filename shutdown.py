@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import Dropbox
-import I2C_link
+import i2c_link
 from subprocess import call
 import os.path
 from dropbox import client, rest
@@ -11,7 +11,7 @@ DEBUG = True
 def main():
     path = "/home/ashley/thesis"
     debug_enable = False
-    i2c = I2C_link.I2CConnection()
+    i2c = i2c_link.I2CConnection()
     dbHelper = Dropbox.DropboxHelper()
 
     print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"

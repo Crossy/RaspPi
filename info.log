@@ -6318,3 +6318,59 @@ Failed to connect.
 [loaded access token]
 Attempting to update time
 15 Oct 19:18:17 sntp[5449]: Started sntp
+15 Oct 19:23:57 sntp[5449]: Received no useable packet from 27.116.36.44!
+2013-10-15 19:23:57.632922 (-1000) -0.016891 +/- 0.058990 secs
+2013-10-15 19:23:57.655957 (-1000) -0.004540 +/- 0.064651 secs
+2013-10-15 19:23:57.702843 (-1000) +0.023566 +/- 0.049301 secs
+Tue Oct 15 19:23:57 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset
+Sending log files for previous runs to Dropbox
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 19:46:36 sntp[5005]: Started sntp
+2013-10-15 19:46:37.235115 (-1000) +0.135008 +/- 0.014664 secs
+2013-10-15 19:46:37.850111 (-1000) +0.031022 +/- 0.069702 secs
+2013-10-15 19:46:38.312957 (-1000) -0.040905 +/- 0.072937 secs
+2013-10-15 19:46:38.770295 (-1000) +0.029532 +/- 0.064789 secs
+Tue Oct 15 19:46:38 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+Raw datapoint = -1
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected

@@ -3,7 +3,7 @@ import datetime
 import monitor_config
 import Dropbox
 import Xively
-import I2C_link
+import i2c_link
 import data_writer
 import SMS
 import sys
@@ -29,7 +29,7 @@ def main():
 
     flags = []
 
-    i2c = I2C_link.I2CConnection()
+    i2c = i2c_link.I2CConnection()
     dw = data_writer.DataWriter()
 
     #Check if mobile broadband USB is connected
