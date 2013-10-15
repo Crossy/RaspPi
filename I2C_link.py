@@ -79,16 +79,35 @@ class I2CConnection:
                 except IOError as detail:
                     sys.stderr.write("I2C UPDATE_OFF_PERIOD: "+str(detail)+'\n')
                     return False
-           if self.bus.read_byte_data(self.addr, 0x80) & 0x0F == 0x01:
-               #Send success
-               sent = True
-               break
-           else:
-               #Send failure
-               sys.stderr.write("I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...\n")
+            if self.bus.read_byte_data(self.addr, 0x80) & 0x0F == 0x01:
+                #Send success
+                sent = True
+                break
+            else:
+                #Send failure
+                sys.stderr.write("I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...\n")
         if sent:
             print "Updated off period to "+str(mins)+" mins"
             return True
         else:
             sys.stderr.write("I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times\n")
             return False
+
+    def debug_mode(self):
+        sent = False
+        retries = 0
+        while not sent and retries < 10:
+            try:
+                self.bus.write_byte(self.addr, 0xA0)
+                sent = True
+            except IOError as detail:
+                sys.stderr.write("I2C DEBUG_MODE "+str(detail)+'\n')
+                sys.stderr.write("\tRetrying in 1 sec\n")
+                sent = False
+                retries = retries + 1
+                time.sleep(1)
+        if sent:
+            print "ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset"
+        else:
+            sys.stderr.write("I2C DEBUG_MODE: Failed to set debug mode.\n")
+        return sent

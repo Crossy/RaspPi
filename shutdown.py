@@ -22,6 +22,7 @@ def main():
     if call([path+"/ethernet.sh"]) == 0:
         print "Raspi will not shutdown because ethernet is connected. Debug mode is enabled"
         debug_enable = True
+        i2c.debug_mode()
 
     #Send log files to Dropbox
     if DEBUG:
@@ -45,7 +46,7 @@ def main():
             sys.stdout.flush()
         if not i2c.send_stop():
             call(["sudo","reboot"],stderr=DEVNULL,stdout=DEVNULL)
-        
+
 
     print "#########################################################################"
     sys.stdout.flush()

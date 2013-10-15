@@ -5513,3 +5513,808 @@ Ethernet connected
 Raspi will not shutdown because ethernet is connected. Debug mode is enabled
 Sending log files for previous runs to Dropbox
 #########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 10:26:41 sntp[4863]: Started sntp
+2013-10-15 10:26:41.606688 (-1000) +40.291473 +/- 0.122559 secs
+2013-10-15 10:27:21.968040 (-1000) -0.002060 +/- 0.027435 secs
+2013-10-15 10:27:22.045948 (-1000) -0.004357 +/- 0.029495 secs
+2013-10-15 10:27:22.691627 (-1000) +0.28187 +/- 0.055481 secs
+Tue Oct 15 10:27:22 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 93
+Writing data to file
+Wrote 2013-10-15 10:27, 66.4705882353
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 66.4705882353
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 10:29:51 sntp[4873]: Started sntp
+2013-10-15 10:29:51.998531 (-1000) +97.007630 +/- 0.039505 secs
+2013-10-15 10:31:29.165070 (-1000) +0.001726 +/- 0.126251 secs
+2013-10-15 10:31:29.246750 (-1000) -0.020459 +/- 0.061340 secs
+2013-10-15 10:31:29.316301 (-1000) +0.00488 +/- 0.022812 secs
+Tue Oct 15 10:31:29 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 93
+Writing data to file
+Wrote 2013-10-15 10:31, 66.4705882353
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 66.4705882353
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 10:33:30 sntp[4886]: Started sntp
+2013-10-15 10:33:32.185014 (-1000) +98.504371 +/- 0.124252 secs
+2013-10-15 10:35:11.139303 (-1000) -0.144946 +/- 0.124268 secs
+2013-10-15 10:35:11.904399 (-1000) +0.227924 +/- 0.030289 secs
+2013-10-15 10:35:12.742645 (-1000) -0.131994 +/- 0.023682 secs
+Tue Oct 15 10:35:12 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 92
+Writing data to file
+Wrote 2013-10-15 10:35, 67.0588235294
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 67.0588235294
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 10:36:54 sntp[4832]: Started sntp
+2013-10-15 10:36:55.026073 (-1000) +98.880241 +/- 0.127319 secs
+2013-10-15 10:38:34.006113 (-1000) -0.000867 +/- 0.127319 secs
+2013-10-15 10:38:34.075230 (-1000) -0.001523 +/- 0.073608 secs
+2013-10-15 10:38:34.123970 (-1000) -0.011374 +/- 0.026703 secs
+Tue Oct 15 10:38:34 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 93
+Writing data to file
+Wrote 2013-10-15 10:38, 66.4705882353
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 66.4705882353
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 10:40:50 sntp[4904]: Started sntp
+2013-10-15 10:40:50.335236 (-1000) +98.552699 +/- 0.105270 secs
+2013-10-15 10:42:29.017897 (-1000) +0.005302 +/- 0.105270 secs
+2013-10-15 10:42:29.103183 (-1000) -0.002534 +/- 0.077133 secs
+2013-10-15 10:42:29.160832 (-1000) -0.004346 +/- 0.030228 secs
+Tue Oct 15 10:42:29 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 92
+Writing data to file
+Wrote 2013-10-15 10:42, 67.0588235294
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 67.0588235294
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 11:09:56 sntp[4895]: Started sntp
+2013-10-15 11:09:57.089388 (-1000) -0.001409 +/- 0.038635 secs
+2013-10-15 11:09:57.157993 (-1000) +0.004253 +/- 0.047302 secs
+2013-10-15 11:09:57.232108 (-1000) -0.202324 +/- 0.350220 secs
+2013-10-15 11:09:57.099996 (-1000) +0.201586 +/- 0.029617 secs
+Tue Oct 15 11:09:57 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 67.0588235294 from 10:42 15/10/2013
+Writing data to file
+Wrote 2013-10-15 11:11, 67.0588235294
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 67.0588235294
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+Sending log files for previous runs to Dropbox
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 11:18:21 sntp[4992]: Started sntp
+2013-10-15 11:18:22.033548 (-1000) -0.015119 +/- 0.036774 secs
+2013-10-15 11:18:22.098334 (-1000) +0.009963 +/- 0.088013 secs
+2013-10-15 11:18:22.188140 (-1000) +0.008867 +/- 0.076126 secs
+2013-10-15 11:18:22.257038 (-1000) +0.00497 +/- 0.101807 secs
+Tue Oct 15 11:18:22 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 94
+Writing data to file
+Wrote 2013-10-15 11:18, 65.8823529412
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.8823529412
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+Sending log files for previous runs to Dropbox
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:49:23 sntp[4867]: Started sntp
+2013-10-15 12:49:24.339036 (-1000) +98.137878 +/- 0.079483 secs
+2013-10-15 12:51:02.786864 (-1000) -0.02529 +/- 0.019226 secs
+2013-10-15 12:51:03.419686 (-1000) +0.029327 +/- 0.075867 secs
+2013-10-15 12:51:03.589639 (-1000) -0.093604 +/- 0.000336 secs
+Tue Oct 15 12:51:03 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 54
+Writing data to file
+Wrote 2013-10-15 12:51, 89.4117647059
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 89.4117647059
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:52:35 sntp[4836]: Started sntp
+2013-10-15 12:52:36.632317 (-1000) +96.898506 +/- 0.041458 secs
+2013-10-15 12:54:14.240901 (-1000) +0.153463 +/- 0.082352 secs
+2013-10-15 12:54:14.754397 (-1000) -0.157439 +/- 0.037354 secs
+2013-10-15 12:54:15.317147 (-1000) +0.175435 +/- 0.054123 secs
+Tue Oct 15 12:54:15 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 54
+Writing data to file
+Wrote 2013-10-15 12:54, 89.4117647059
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 89.4117647059
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:47 sntp[4840]: Started sntp
+2013-10-15 12:55:47.256847 (-1000) +98.193651 +/- 0.044342 secs
+2013-10-15 12:57:25.550513 (-1000) -0.028321 +/- 0.071899 secs
+2013-10-15 12:57:25.622130 (-1000) +0.013053 +/- 0.056976 secs
+2013-10-15 12:57:25.775605 (-1000) +0.017324 +/- 0.038330 secs
+Tue Oct 15 12:57:25 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 54
+Writing data to file
+Wrote 2013-10-15 12:57, 89.4117647059
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 89.4117647059
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:47 sntp[4863]: Started sntp
+2013-10-15 12:55:48.097299 (-1000) +810.269014 +/- 0.114624 secs
+2013-10-15 13:09:18.446440 (-1000) -0.002857 +/- 0.063431 secs
+2013-10-15 13:09:18.563234 (-1000) +0.001252 +/- 0.045349 secs
+2013-10-15 13:09:18.634561 (-1000) -0.00305 +/- 0.107956 secs
+Tue Oct 15 13:09:18 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 13:09, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:52 sntp[4941]: Started sntp
+2013-10-15 12:55:52.943658 (-1000) +1577.855226 +/- 0.057709 secs
+2013-10-15 13:22:10.859091 (-1000) -0.009493 +/- 0.041382 secs
+2013-10-15 13:22:10.919510 (-1000) -0.008308 +/- 0.051331 secs
+2013-10-15 13:22:10.991325 (-1000) +0.002750 +/- 0.053040 secs
+Tue Oct 15 13:22:11 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = 96
+Writing data to file
+Wrote 2013-10-15 13:22, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.7058823529
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:51 sntp[4939]: Started sntp
+2013-10-15 12:55:51.467247 (-1000) +2331.261237 +/- 0.043320 secs
+2013-10-15 13:34:42.788539 (-1000) -0.00127 +/- 0.105133 secs
+2013-10-15 13:34:42.847360 (-1000) -0.043376 +/- 0.370560 secs
+2013-10-15 13:34:42.894233 (-1000) +0.026001 +/- 0.374741 secs
+Tue Oct 15 13:34:42 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 96
+Writing data to file
+Wrote 2013-10-15 13:34, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.7058823529
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:51 sntp[4912]: Started sntp
+2013-10-15 12:55:51.205305 (-1000) +3141.39955 +/- 0.033981 secs
+2013-10-15 13:48:12.705498 (-1000) +0.01480 +/- 0.001099 secs
+2013-10-15 13:48:12.789631 (-1000) -0.010230 +/- 0.026840 secs
+2013-10-15 13:48:12.909232 (-1000) +0.009407 +/- 0.117447 secs
+Tue Oct 15 13:48:12 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 13:48, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:52 sntp[4920]: Started sntp
+2013-10-15 12:55:52.686955 (-1000) +3961.814167 +/- 0.129639 secs
+2013-10-15 14:01:54.550935 (-1000) -0.03107 +/- 0.169296 secs
+2013-10-15 14:01:54.589977 (-1000) +0.01674 +/- 0.095856 secs
+2013-10-15 14:01:54.656595 (-1000) +0.006763 +/- 0.058487 secs
+Tue Oct 15 14:01:54 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 14:02, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 12:55:47 sntp[4870]: Started sntp
+2013-10-15 12:55:47.567722 (-1000) +4786.710282 +/- 0.073151 secs
+2013-10-15 14:15:34.367556 (-1000) -0.184551 +/- 0.379410 secs
+2013-10-15 14:15:34.292985 (-1000) +0.219667 +/- 0.023422 secs
+2013-10-15 14:15:34.622717 (-1000) -0.008125 +/- 0.025940 secs
+Tue Oct 15 14:15:34 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = 94
+Writing data to file
+Wrote 2013-10-15 14:16, 65.8823529412
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.8823529412
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:10 sntp[4858]: Started sntp
+2013-10-15 14:18:10.967269 (-1000) +670.938938 +/- 0.038910 secs
+2013-10-15 14:29:22.245952 (-1000) +0.050722 +/- 0.026764 secs
+2013-10-15 14:29:22.466583 (-1000) -0.074788 +/- 0.059250 secs
+2013-10-15 14:29:22.501991 (-1000) -0.039769 +/- 0.066681 secs
+Tue Oct 15 14:29:22 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 14:29, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:16 sntp[4916]: Started sntp
+2013-10-15 14:18:16.596420 (-1000) +1460.30556 +/- 0.080139 secs
+2013-10-15 14:42:36.981920 (-1000) +0.02585 +/- 0.013733 secs
+2013-10-15 14:42:37.097883 (-1000) -0.002761 +/- 0.027145 secs
+2013-10-15 14:42:37.204995 (-1000) -0.029547 +/- 0.083832 secs
+Tue Oct 15 14:42:37 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 14:42, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:14 sntp[4936]: Started sntp
+2013-10-15 14:18:14.633359 (-1000) +2183.083886 +/- 0.092651 secs
+2013-10-15 14:54:37.817390 (-1000) +0.00968 +/- 0.023270 secs
+2013-10-15 14:54:37.916870 (-1000) -0.003238 +/- 0.032440 secs
+2013-10-15 14:54:38.003640 (-1000) -0.019657 +/- 0.071106 secs
+Tue Oct 15 14:54:37 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 96
+Writing data to file
+Wrote 2013-10-15 14:54, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.7058823529
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:16 sntp[4964]: Started sntp
+2013-10-15 14:18:16.211679 (-1000) +2906.549237 +/- 0.030182 secs
+2013-10-15 15:06:42.860758 (-1000) +0.001277 +/- 0.038193 secs
+2013-10-15 15:06:42.922211 (-1000) -0.015805 +/- 0.084885 secs
+2013-10-15 15:06:42.976202 (-1000) +0.024282 +/- 0.120148 secs
+Tue Oct 15 15:06:43 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 15:06, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:14 sntp[4948]: Started sntp
+2013-10-15 14:18:15.062859 (-1000) +3665.634927 +/- 0.037567 secs
+2013-10-15 15:19:20.797810 (-1000) +0.021897 +/- 0.047394 secs
+2013-10-15 15:19:20.909716 (-1000) -0.02433 +/- 0.126511 secs
+2013-10-15 15:19:20.975213 (-1000) +0.018734 +/- 0.074402 secs
+Tue Oct 15 15:19:21 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 55
+Writing data to file
+Wrote 2013-10-15 15:19, 88.8235294118
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 88.8235294118
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:12 sntp[4856]: Started sntp
+2013-10-15 14:18:12.434766 (-1000) +4466.402207 +/- 0.123917 secs
+2013-10-15 15:32:38.977054 (-1000) +0.012912 +/- 0.037521 secs
+2013-10-15 15:32:39.100058 (-1000) +0.059036 +/- 0.093781 secs
+2013-10-15 15:32:39.239009 (-1000) -0.07934 +/- 0.088104 secs
+Tue Oct 15 15:32:39 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 55
+Writing data to file
+Wrote 2013-10-15 15:32, 88.8235294118
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 88.8235294118
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:14 sntp[4943]: Started sntp
+2013-10-15 14:18:15.242208 (-1000) +5211.195557 +/- 0.119354 secs
+2013-10-15 15:45:06.547861 (-1000) +0.001256 +/- 0.054108 secs
+2013-10-15 15:45:06.679098 (-1000) +0.010073 +/- 0.096420 secs
+2013-10-15 15:45:06.798974 (-1000) -0.014420 +/- 0.071289 secs
+Tue Oct 15 15:45:06 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 55
+Writing data to file
+Wrote 2013-10-15 15:45, 88.8235294118
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 88.8235294118
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:20 sntp[4818]: Started sntp
+2013-10-15 14:18:21.164440 (-1000) +5959.026189 +/- 0.130661 secs
+2013-10-15 15:57:40.260674 (-1000) -0.006898 +/- 0.026871 secs
+2013-10-15 15:57:40.353828 (-1000) +0.007931 +/- 0.000458 secs
+2013-10-15 15:57:40.514180 (-1000) -0.029337 +/- 0.019577 secs
+Tue Oct 15 15:57:40 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = 55
+Writing data to file
+Wrote 2013-10-15 15:57, 88.8235294118
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 88.8235294118
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:11 sntp[4907]: Started sntp
+2013-10-15 14:18:11.655816 (-1000) +6744.998446 +/- 0.080063 secs
+2013-10-15 16:10:36.724039 (-1000) -0.004661 +/- 0.034760 secs
+2013-10-15 16:10:36.809435 (-1000) +0.00237 +/- 0.021179 secs
+2013-10-15 16:10:36.911696 (-1000) +0.000601 +/- 0.079163 secs
+Tue Oct 15 16:10:36 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = 95
+Writing data to file
+Wrote 2013-10-15 16:11, 65.2941176471
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 65.2941176471
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:20 sntp[4821]: Started sntp
+2013-10-15 14:18:22.650955 (-1000) +7596.553211 +/- 0.110687 secs
+2013-10-15 16:25:00.653969 (-1000) +0.23623 +/- 0.148270 secs
+2013-10-15 16:25:01.794349 (-1000) -0.241568 +/- 0.000320 secs
+2013-10-15 16:25:01.642846 (-1000) -0.392503 +/- 0.065750 secs
+Tue Oct 15 16:25:01 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = 96
+Writing data to file
+Wrote 2013-10-15 16:25, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.7058823529
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+15 Oct 14:18:12 sntp[4920]: Started sntp
+2013-10-15 14:18:13.220809 (-1000) +8447.065119 +/- 0.109543 secs
+2013-10-15 16:39:00.355844 (-1000) +0.006279 +/- 0.050888 secs
+2013-10-15 16:39:00.442260 (-1000) +0.011890 +/- 0.079956 secs
+2013-10-15 16:39:00.543989 (-1000) -0.690500 +/- 0.827866 secs
+Tue Oct 15 16:38:59 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 64.7058823529 from 16:25 15/10/2013
+Writing data to file
+Wrote 2013-10-15 16:40, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.7058823529
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+Failed to connect.
+[loaded access token]
+Attempting to update time
+15 Oct 19:18:17 sntp[5449]: Started sntp
