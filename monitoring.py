@@ -151,7 +151,8 @@ def main():
         if now.time() < config.quiet_time_start and now.time() > config.quiet_time_end and prevAlarms < config.max_alarms_per_day:
             flags.append('alarm')
         else:
-            print "Muted alarm due to max alarms in a day"
+            print "Muted alarm due to max alarms in a day or it is quiet time"
+            print "Previous alarms = " + str(prevAlarms)+ " before start_time  = " +str(now.time() < config.quiet_time_start)+ "after end_time  = " +str(now.time() < config.quiet_time_end)
             flags.append('muted')
 
     #Write datapoint to file
@@ -181,7 +182,7 @@ def main():
             if not xively.get_datastream("test"):
                 xively.create_datastream("test","test")
             xively.put_datapoint(datapoint)
-        except IOError as details:
+        except Exception as details:
             sys.stderr.write("XIVELY: Error writing to feed\n" + str(details) + '\n');
 
     #TODO: SMS stuff here

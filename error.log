@@ -6433,3 +6433,457 @@ Ultrasonic Sensor: No or invalid response
 Problem with ultrasonic sensor
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 00:20:29 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 19:52:45 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 20:09:12 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 20:23:26 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 20:38:46 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 20:53:08 2013
+------------------------------------------------------------------------
+Wed Oct 16 21:13:25 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 21:28:28 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 21:34:15 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 21:44:10 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 21:54:42 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 22:21:28 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 22:25:46 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 22:35:38 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 22:47:56 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 23:07:33 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 23:12:19 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 23:17:08 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 23:33:40 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Wed Oct 16 23:49:46 2013
+No option 'offtime' in section: 'Options'
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Wed Oct 16 23:54:14 2013
+No option 'offtime' in section: 'Options'
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Thu Oct 17 00:38:49 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Thu Oct 17 00:42:08 2013
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################
+------------------------------------------------------------------------
+Thu Oct 17 00:57:35 2013
+------------------------------------------------------------------------
+Thu Oct 17 00:59:57 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Thu Oct 17 01:11:36 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Cannot sychronise time
+Thu Oct 17 00:44:40 2013
+------------------------------------------------------------------------
+Thu Oct 17 01:29:07 2013
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send. Retrying ...
+I2C UPDATE_OFF_PERIOD: Failed to correctly send too many times
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Too many extrapolated datapoints in a row. Exiting without writing datapoint to file.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------
+Thu Oct 17 01:46:35 2013
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
+Ultrasonic Sensor: No echo received
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#########################################################################

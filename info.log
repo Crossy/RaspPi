@@ -6413,3 +6413,966 @@ Raspi will not shutdown because ethernet is connected. Debug mode is enabled
 ATtiny now in debug mode. Watchdog is disabled. Won't reenable until power reset
 Sending log files for previous runs to Dropbox
 #########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 00:20:27 sntp[4799]: Started sntp
+2013-10-16 00:20:28.257870 (-1000) +0.055117 +/- 0.040878 secs
+2013-10-16 00:20:28.622969 (-1000) +0.030359 +/- 0.053101 secs
+2013-10-16 00:20:29.043243 (-1000) +0.01061 +/- 0.025360 secs
+2013-10-16 00:20:29.344235 (-1000) -0.033102 +/- 0.096176 secs
+Wed Oct 16 00:20:29 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 64.7058823529 from 16:40 15/10/2013
+Writing data to file
+Wrote 2013-10-16 00:22, 64.7058823529
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.71
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+ATTINY24 now in debug mode. Watchdog is disabled. Won't reenable until power reset
+Sending log files for previous runs to Dropbox
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 01:14:14 sntp[4885]: Started sntp
+2013-10-16 01:14:14.910951 (-1000) +67095.465146 +/- 0.076797 secs
+2013-10-16 19:52:30.556052 (-1000) +0.025703 +/- 0.046036 secs
+2013-10-16 19:52:45.510228 (-1000) +7.332630 +/- 0.092621 secs
+2013-10-16 19:52:52.932977 (-1000) -7.35859 +/- 0.013565 secs
+Wed Oct 16 19:52:45 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 64.71 from 00:22 16/10/2013
+Writing data to file
+Wrote 2013-10-16 19:54, 64.71
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.71
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:13 sntp[4887]: Started sntp
+2013-10-16 19:57:13.765068 (-1000) +718.865974 +/- 0.118729 secs
+2013-10-16 20:09:12.760732 (-1000) -0.005016 +/- 0.024307 secs
+2013-10-16 20:09:12.845689 (-1000) +0.003698 +/- 0.061325 secs
+2013-10-16 20:09:12.909575 (-1000) +0.00132 +/- 0.013168 secs
+Wed Oct 16 20:09:12 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 64.71 from 19:54 16/10/2013
+Writing data to file
+Wrote 2013-10-16 20:11, 64.71
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 64.71
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:10 sntp[4941]: Started sntp
+2013-10-16 19:57:11.178511 (-1000) +1575.325848 +/- 0.064774 secs
+2013-10-16 20:23:26.584321 (-1000) -0.001876 +/- 0.013977 secs
+2013-10-16 20:23:26.632427 (-1000) -0.00411 +/- 0.044556 secs
+2013-10-16 20:23:26.678321 (-1000) -0.008624 +/- 0.067322 secs
+Wed Oct 16 20:23:26 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:29 sntp[5387]: Started sntp
+2013-10-16 19:57:29.949818 (-1000) +2475.713433 +/- 0.061905 secs
+2013-10-16 20:38:45.733288 (-1000) +0.005601 +/- 0.027328 secs
+2013-10-16 20:38:45.849131 (-1000) +0.002881 +/- 0.070709 secs
+2013-10-16 20:38:46.011672 (-1000) +0.007309 +/- 0.094147 secs
+Wed Oct 16 20:38:46 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:15 sntp[4940]: Started sntp
+2013-10-16 19:57:16.206969 (-1000) +3351.276669 +/- 0.045258 secs
+2013-10-16 20:53:07.743609 (-1000) -0.01280 +/- 0.035080 secs
+2013-10-16 20:53:08.000779 (-1000) +0.014381 +/- 0.012665 secs
+2013-10-16 20:53:08.676789 (-1000) +0.195770 +/- 0.029694 secs
+Wed Oct 16 20:53:08 2013
+Updating Dropbox
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:09 sntp[4866]: Started sntp
+2013-10-16 19:57:10.191295 (-1000) +4573.096143 +/- 0.064697 secs
+2013-10-16 21:13:23.987453 (-1000) +0.153695 +/- 0.039429 secs
+2013-10-16 21:13:24.851204 (-1000) -0.385984 +/- 0.031326 secs
+2013-10-16 21:13:24.825088 (-1000) +0.225231 +/- 0.031113 secs
+Wed Oct 16 21:13:25 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:15 sntp[4934]: Started sntp
+2013-10-16 19:57:15.544079 (-1000) +5472.53482 +/- 0.041672 secs
+2013-10-16 21:28:28.228703 (-1000) -0.124389 +/- 0.016510 secs
+2013-10-16 21:28:28.244314 (-1000) -0.012475 +/- 0.000351 secs
+2013-10-16 21:28:28.321799 (-1000) +0.00551 +/- 0.020508 secs
+Wed Oct 16 21:28:28 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:16 sntp[4983]: Started sntp
+2013-10-16 19:57:16.389613 (-1000) +5818.62053 +/- 0.175369 secs
+2013-10-16 21:34:15.119971 (-1000) -0.053258 +/- 0.021713 secs
+2013-10-16 21:34:15.166680 (-1000) +0.004065 +/- 0.000412 secs
+2013-10-16 21:34:15.230781 (-1000) -0.00406 +/- 0.012955 secs
+Wed Oct 16 21:34:15 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 19:57:17 sntp[5068]: Started sntp
+2013-10-16 19:57:17.268596 (-1000) +6412.94639 +/- 0.001068 secs
+2013-10-16 21:44:10.315222 (-1000) +0.02355 +/- 0.052887 secs
+2013-10-16 21:44:10.408578 (-1000) -0.022677 +/- 0.058441 secs
+2013-10-16 21:44:10.455777 (-1000) +0.00215 +/- 0.109985 secs
+Wed Oct 16 21:44:10 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 21:48:21 sntp[4812]: Started sntp
+2013-10-16 21:48:22.839475 (-1000) +354.617993 +/- 0.061722 secs
+2013-10-16 21:54:20.026574 (-1000) -1.208608 +/- 0.060440 secs
+2013-10-16 21:54:19.688777 (-1000) +1.00531 +/- 0.129959 secs
+2013-10-16 21:54:35.494852 (-1000) +7.373931 +/- 0.052429 secs
+Wed Oct 16 21:54:42 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 22:00:01 sntp[4809]: Started sntp
+2013-10-16 22:00:01.861307 (-1000) +1286.204125 +/- 0.038635 secs
+2013-10-16 22:21:28.165311 (-1000) -0.005151 +/- 0.041504 secs
+2013-10-16 22:21:28.260322 (-1000) +0.003686 +/- 0.034775 secs
+2013-10-16 22:21:28.353829 (-1000) +0.000715 +/- 0.022705 secs
+Wed Oct 16 22:21:28 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 22:00:02 sntp[4893]: Started sntp
+2013-10-16 22:00:02.994738 (-1000) +1543.57389 +/- 0.060638 secs
+2013-10-16 22:25:46.633562 (-1000) -0.027754 +/- 0.053802 secs
+2013-10-16 22:25:46.671018 (-1000) +0.00445 +/- 0.013855 secs
+2013-10-16 22:25:46.805379 (-1000) -0.001992 +/- 0.033539 secs
+Wed Oct 16 22:25:46 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 21:59:59 sntp[4812]: Started sntp
+2013-10-16 21:59:59.503184 (-1000) +2138.889428 +/- 0.054245 secs
+2013-10-16 22:35:38.464451 (-1000) +0.017313 +/- 0.065384 secs
+2013-10-16 22:35:38.541889 (-1000) -0.018119 +/- 0.091629 secs
+2013-10-16 22:35:38.583541 (-1000) +0.03353 +/- 0.045273 secs
+Wed Oct 16 22:35:38 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = 0
+Writing data to file
+Wrote 2013-10-16 22:35, 121.176470588
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 22:37:26 sntp[4867]: Started sntp
+2013-10-16 22:37:26.832744 (-1000) +629.859204 +/- 0.022614 secs
+2013-10-16 22:47:56.761957 (-1000) -0.002977 +/- 0.076477 secs
+2013-10-16 22:47:56.799150 (-1000) +0.002916 +/- 0.025513 secs
+2013-10-16 22:47:56.871822 (-1000) -0.005687 +/- 0.058609 secs
+Wed Oct 16 22:47:56 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = 0
+Writing data to file
+Wrote 2013-10-16 22:48, 121.176470588
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 22:49:48 sntp[4848]: Started sntp
+2013-10-16 22:49:49.787899 (-1000) +1063.647311 +/- 0.021072 secs
+2013-10-16 23:07:33.545004 (-1000) -0.008328 +/- 0.049301 secs
+2013-10-16 23:07:33.606638 (-1000) +0.010720 +/- 0.024399 secs
+2013-10-16 23:07:33.667445 (-1000) -0.012963 +/- 0.016235 secs
+Wed Oct 16 23:07:33 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = 0
+Writing data to file
+Wrote 2013-10-16 23:07, 121.176470588
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:09:25 sntp[4854]: Started sntp
+2013-10-16 23:09:25.240862 (-1000) +173.829611 +/- 0.025345 secs
+2013-10-16 23:12:19.170153 (-1000) +0.000862 +/- 0.025879 secs
+2013-10-16 23:12:19.271264 (-1000) -0.000353 +/- 0.039749 secs
+2013-10-16 23:12:19.390742 (-1000) -0.009502 +/- 0.034256 secs
+Wed Oct 16 23:12:19 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 121.18 from 23:07 16/10/2013
+Writing data to file
+Wrote 2013-10-16 23:13, 121.18
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:15:29 sntp[4856]: Started sntp
+2013-10-16 23:15:29.701871 (-1000) +98.64186 +/- 0.060104 secs
+2013-10-16 23:17:08.403837 (-1000) +0.01051 +/- 0.093369 secs
+2013-10-16 23:17:08.454163 (-1000) -0.00378 +/- 0.042618 secs
+2013-10-16 23:17:08.510654 (-1000) -0.003828 +/- 0.094803 secs
+Wed Oct 16 23:17:08 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 121.18 from 23:13 16/10/2013
+Writing data to file
+Wrote 2013-10-16 23:19, 121.18
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:20:39 sntp[4810]: Started sntp
+2013-10-16 23:20:39.313143 (-1000) +780.540785 +/- 0.042633 secs
+2013-10-16 23:33:39.933165 (-1000) -0.014693 +/- 0.039719 secs
+2013-10-16 23:33:40.018466 (-1000) +0.004285 +/- 0.026901 secs
+2013-10-16 23:33:40.122733 (-1000) +0.00203 +/- 0.022156 secs
+Wed Oct 16 23:33:40 2013
+Updating Dropbox
+Reading config file
+Updated off period to 1 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 121.18 from 23:19 16/10/2013
+Writing data to file
+Wrote 2013-10-16 23:35, 121.18
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:36:45 sntp[4841]: Started sntp
+2013-10-16 23:36:45.349924 (-1000) +780.444907 +/- 0.033752 secs
+2013-10-16 23:49:45.864517 (-1000) -0.010626 +/- 0.048340 secs
+2013-10-16 23:49:45.933913 (-1000) +0.004788 +/- 0.050491 secs
+2013-10-16 23:49:46.028716 (-1000) -0.000062 +/- 0.018143 secs
+Wed Oct 16 23:49:46 2013
+Updating Dropbox
+Reading config file
+Updated off period to 60 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Setting datapoint to 121.18 from 23:35 16/10/2013
+Writing data to file
+Wrote 2013-10-16 23:52, 121.18
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 121.18
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:36:47 sntp[4933]: Started sntp
+2013-10-16 23:36:47.534336 (-1000) +1046.646585 +/- 0.045227 secs
+2013-10-16 23:54:14.260842 (-1000) -0.0346 +/- 0.041428 secs
+2013-10-16 23:54:14.276273 (-1000) +0.03051 +/- 0.015366 secs
+2013-10-16 23:54:14.376732 (-1000) -0.000589 +/- 0.039276 secs
+Wed Oct 16 23:54:14 2013
+Updating Dropbox
+Reading config file
+Updated off period to 60 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+AT+CFUN?
++CFUN: 1
+
+OK
+AT+CMGF=1
+OK
+CMGS="0488598262"
+> Problem with sensor for tank Test @ 23:56 16/10/2013
+
++CMGS: 117
+Sent "Problem with sensor for tank Test @ 23:56 16/10/2013" to 0488598262
+
+OK
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:58:06 sntp[4862]: Started sntp
+2013-10-17 00:38:47.930903 (-1000) +1219.770862 +/- 0.074905 secs
+2013-10-17 00:59:08.331691 (-1000) -1219.82410 +/- 0.084885 secs
+2013-10-17 00:38:49.187632 (-1000) +0.028414 +/- 0.011215 secs
+2013-10-17 00:38:49.646033 (-1000) -0.151304 +/- 0.045578 secs
+Thu Oct 17 00:38:49 2013
+Updating Dropbox
+Reading config file
+Updated off period to 2 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
+++++++++++------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+16 Oct 23:58:10 sntp[4940]: Started sntp
+2013-10-16 23:58:10.337060 (-1000) +2638.330015 +/- 0.045990 secs
+2013-10-17 00:42:08.754540 (-1000) -0.017880 +/- 0.014221 secs
+2013-10-17 00:42:08.802659 (-1000) +0.005839 +/- 0.103546 secs
+2013-10-17 00:42:08.874193 (-1000) +0.01380 +/- 0.087906 secs
+Thu Oct 17 00:42:08 2013
+Updating Dropbox
+Reading config file
+Updated off period to 2 mins
+Getting and validating datapoint
+Raw datapoint = 4096
+Low water alarm
+Muted alarm due to max alarms in a day
+Writing data to file
+Wrote 2013-10-17 00:42, -2288.23529412
+Updating datafile in Dropbox
+Sending data to Xively
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+Sending log files for previous runs to Dropbox
+Sending stop via I2C. Power off in 30 secs
+Stop sent
+#########################################################################
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 00:43:37 sntp[4815]: Started sntp
+2013-10-17 00:43:39.639218 (-1000) +835.597356 +/- 0.059875 secs
+2013-10-17 00:57:35.336588 (-1000) -0.020549 +/- 0.035309 secs
+2013-10-17 00:57:35.415964 (-1000) +0.019163 +/- 0.037979 secs
+2013-10-17 00:57:35.515205 (-1000) -0.002197 +/- 0.013260 secs
+Thu Oct 17 00:57:35 2013
+Updating Dropbox
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 00:43:51 sntp[4878]: Started sntp
+2013-10-17 00:43:51.298035 (-1000) +965.811149 +/- 0.062012 secs
+2013-10-17 00:59:57.189139 (-1000) +0.000868 +/- 0.037445 secs
+2013-10-17 00:59:57.269876 (-1000) -0.004188 +/- 0.040100 secs
+2013-10-17 00:59:57.336443 (-1000) +0.001652 +/- 0.015701 secs
+Thu Oct 17 00:59:57 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+AT+CFUN?
++CFUN: 1
+
+OK
+AT+CMGF=1
+OK
+CMGS="0488598262"
+> Problem with sensor for tank Test @ 01:01 17/10/2013
+
++CMGS: 118
+Sent "Problem with sensor for tank Test @ 01:01 17/10/2013" to 0488598262
+
+OK
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 00:43:50 sntp[4972]: Started sntp
+2013-10-17 00:43:50.896804 (-1000) +1665.765267 +/- 0.031387 secs
+2013-10-17 01:11:36.741764 (-1000) -0.027601 +/- 0.097473 secs
+2013-10-17 01:11:36.804148 (-1000) +0.01626 +/- 0.021484 secs
+2013-10-17 01:11:36.920423 (-1000) +0.008621 +/- 0.017242 secs
+Thu Oct 17 01:11:36 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet not connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 00:44:02 sntp[4909]: Started sntp
+17 Oct 00:44:40 sntp[4909]: Error looking up (A) 0.au.pool.ntp.org: Name or service not known
+Unable to resolve hostname(s)
+Thu Oct 17 00:44:40 2013
+Updating Dropbox
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 01:29:06 sntp[4962]: Started sntp
+2013-10-17 01:29:06.942106 (-1000) +0.013275 +/- 0.050446 secs
+2013-10-17 01:29:07.025033 (-1000) -0.019035 +/- 0.039398 secs
+2013-10-17 01:29:07.056186 (-1000) +0.02809 +/- 0.150391 secs
+2013-10-17 01:29:07.154123 (-1000) -0.017365 +/- 0.037491 secs
+Thu Oct 17 01:29:07 2013
+Updating Dropbox
+Reading config file
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Exceeded max retries with ultrasonic sensor. Tank may be full, very empty or the sensor needs to be checked
+Muted alarm
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+------------------------------------------------------------------------
+Starting Internet connection
+Attempting to connect to the internet
+This may take some time
+MF626i connected to Telstra (50501).
+[loaded access token]
+Attempting to update time
+17 Oct 01:46:33 sntp[4904]: Started sntp
+2013-10-17 01:46:34.408041 (-1000) +0.056719 +/- 0.034698 secs
+2013-10-17 01:46:34.774694 (-1000) +0.001797 +/- 0.041504 secs
+2013-10-17 01:46:35.106706 (-1000) +0.00929 +/- 0.022659 secs
+2013-10-17 01:46:35.425792 (-1000) -0.008767 +/- 0.025970 secs
+Thu Oct 17 01:46:35 2013
+Updating Dropbox
+Reading config file
+Updated off period to 2 mins
+Getting and validating datapoint
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = -2
+Raw datapoint = 131
+Low water alarm
+Muted alarm due to max alarms in a day
+Writing data to file
+Wrote 2013-10-17 01:48, 40.5882352941
+Updating datafile in Dropbox
+Sending data to Xively
+Found existing datastream
+Updating Xively feed with value: 40.59
+[loaded access token]
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ethernet connected
+Raspi will not shutdown because ethernet is connected. Debug mode is enabled
+ATTINY24 now in debug mode. Watchdog is disabled. Won't reenable until power reset
+Sending log files for previous runs to Dropbox
+#########################################################################
